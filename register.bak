@@ -1,0 +1,60 @@
+<?php
+	$title = "Registration";
+	include('header.php');
+	require('connect.php');
+	require('functions.php');
+?>
+	<div class="content">
+		<div class="register">
+			<div>
+				<div>
+					<div class="register">
+						<h2>BE A CAMPER TODAY!</h2>
+						<form action="index.html">
+							<div>
+								<table>
+									<tr>
+										<td><label for="name">Name:</label></td>
+										<td><input type="text" id="name"></td>
+									</tr>
+									<tr>
+										<td><label for="email">Email Address:</label></td>
+										<td><input type="text" id="email"></td>
+									</tr>
+									<tr>
+										<td><label for="tel-number">Tel. Number:</label></td>
+										<td><input type="text" id="tel-number"></td>
+									</tr>
+									<tr>
+										<td><label for="address">Address:</label></td>
+										<td><textarea name="address" id="address" cols="30" rows="10"></textarea></td>
+									</tr>
+									<tr>
+										<td><label for="duration">Duration:</label></td>
+										<td><input type="text" id="duration"></td>
+									</tr>
+									<tr>
+										<td><label for="num-of-children">Number of Children:</label></td>
+										<td><input type="text" id="num-of-children"></td>
+									</tr>
+									<tr>
+										<td><label for="name-of-child">Name of Child:</label></td>
+										<td ><input type="text" id="name-of-child"></td>
+										<td><label for="age" class="age">Age:</label></td>
+										<td><input type="text" id="age" maxlength="2"></td>
+									</tr>
+									<tr>
+										<td><a href="#"><img src="images/button-plus.png" alt=""></a></td>
+									</tr>
+								</table>
+								<input type="submit" id="submit" value="Register">
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<?php
+	require('footer.php');
+?>

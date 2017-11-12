@@ -1,0 +1,89 @@
+[19-Jul-2017 01:47:06 UTC] PHP Notice:  Undefined variable: verify in /home/zerfca/public_html/echo/reports/registrar.php on line 9
+[19-Jul-2017 01:47:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_field_name() in /home/zerfca/public_html/echo/reports/registrar.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 23
+[19-Jul-2017 01:47:19 UTC] PHP Notice:  Undefined variable: verify in /home/zerfca/public_html/echo/reports/registrar.php on line 9
+[19-Jul-2017 01:47:19 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_field_name() in /home/zerfca/public_html/echo/reports/registrar.php:23
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 23
+[19-Jul-2017 01:48:11 UTC] PHP Warning:  include(header.php): failed to open stream: No such file or directory in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:48:11 UTC] PHP Warning:  include(): Failed opening 'header.php' for inclusion (include_path='.:/opt/alt/php70/usr/share/pear') in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:48:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function acctverify() in /home/zerfca/public_html/echo/reports/registrar.php:5
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 5
+[19-Jul-2017 01:48:38 UTC] PHP Notice:  Undefined variable: title in /home/zerfca/public_html/echo/header.php on line 42
+[19-Jul-2017 01:48:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/zerfca/public_html/echo/reports/registrar.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 16
+[19-Jul-2017 01:48:45 UTC] PHP Notice:  Undefined variable: title in /home/zerfca/public_html/echo/header.php on line 42
+[19-Jul-2017 01:48:45 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/zerfca/public_html/echo/reports/registrar.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 16
+[19-Jul-2017 01:49:27 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:49:27 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:13 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:13 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:16 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:16 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:32 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:32 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:32 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:32 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:33 UTC] PHP Warning:  require(connect.php): failed to open stream: No such file or directory in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:33 UTC] PHP Fatal error:  require(): Failed opening required 'connect.php' (include_path='.:/opt/alt/php70/usr/share/pear') in /home/zerfca/public_html/echo/reports/registrar.php on line 2
+[19-Jul-2017 01:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/zerfca/public_html/echo/reports/registrar.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 39
+[19-Jul-2017 01:50:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/zerfca/public_html/echo/reports/registrar.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 39
+[19-Jul-2017 01:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/zerfca/public_html/echo/reports/registrar.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 39
+[19-Jul-2017 01:50:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/zerfca/public_html/echo/reports/registrar.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 39
+[19-Jul-2017 01:52:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_num_fields() in /home/zerfca/public_html/echo/reports/registrar.php:35
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 35
+[19-Jul-2017 01:52:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_field_name() in /home/zerfca/public_html/echo/reports/registrar.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 38
+[19-Jul-2017 01:52:23 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_field_name() in /home/zerfca/public_html/echo/reports/registrar.php:38
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 38
+[19-Jul-2017 01:53:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_field_name() in /home/zerfca/public_html/echo/reports/registrar.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 40
+[19-Jul-2017 01:53:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_field_name() in /home/zerfca/public_html/echo/reports/registrar.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 41
+[19-Jul-2017 01:54:47 UTC] PHP Notice:  Undefined variable: header in /home/zerfca/public_html/echo/reports/registrar.php on line 47
+[19-Jul-2017 01:54:47 UTC] PHP Notice:  Undefined variable: data in /home/zerfca/public_html/echo/reports/registrar.php on line 67
+[19-Jul-2017 01:55:38 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/zerfca/public_html/echo/reports/registrar.php on line 39
+[19-Jul-2017 01:55:39 UTC] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE) in /home/zerfca/public_html/echo/reports/registrar.php on line 39
+[19-Jul-2017 01:58:05 UTC] PHP Parse error:  syntax error, unexpected '$header' (T_VARIABLE), expecting ',' or ';' in /home/zerfca/public_html/echo/reports/registrar.php on line 48
+[19-Jul-2017 01:59:12 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ';' in /home/zerfca/public_html/echo/reports/registrar.php on line 50
+[19-Jul-2017 02:04:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_field_name() in /home/zerfca/public_html/echo/reports/registrar.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/zerfca/public_html/echo/reports/registrar.php on line 41
+[19-Jul-2017 02:05:30 UTC] PHP Catchable fatal error:  Object of class stdClass could not be converted to string in /home/zerfca/public_html/echo/reports/registrar.php on line 41
+[19-Jul-2017 02:06:54 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/zerfca/public_html/echo/reports/registrar.php on line 42
+[19-Jul-2017 02:31:55 UTC] PHP Parse error:  syntax error, unexpected '$tmp' (T_VARIABLE) in /home/zerfca/public_html/echo/reports/registrar.php on line 44
+[19-Jul-2017 02:32:12 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/zerfca/public_html/echo/reports/registrar.php on line 58
+[19-Jul-2017 02:32:39 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/zerfca/public_html/echo/reports/registrar.php on line 58

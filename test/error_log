@@ -1,0 +1,558 @@
+[28-Apr-2017 02:05:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:05:49 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:05:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:05:50 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:05:51 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:05:53 UTC] PHP Parse error:  syntax error, unexpected '<', expecting end of file in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:06:17 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:06:17 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:06:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:06:17 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:06:17 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:06:17 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:06:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:06:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:06:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:06:21 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:06:21 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:06:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:06:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:06:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:06:27 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:06:27 UTC] PHP Notice:  Undefined variable: querycamper in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:27 UTC] PHP Warning:  mysqli_query(): Empty query in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:50 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:06:50 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:06:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:06:50 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:06:50 UTC] PHP Notice:  Undefined variable: querycamper in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:50 UTC] PHP Warning:  mysqli_query(): Empty query in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:52 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:06:52 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:06:52 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:06:52 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:06:52 UTC] PHP Notice:  Undefined variable: querycamper in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:52 UTC] PHP Warning:  mysqli_query(): Empty query in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:06:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:06:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:06:53 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:06:53 UTC] PHP Notice:  Undefined variable: querycamper in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:53 UTC] PHP Warning:  mysqli_query(): Empty query in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:55 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:06:55 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:06:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:06:55 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:06:55 UTC] PHP Notice:  Undefined variable: querycamper in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:06:55 UTC] PHP Warning:  mysqli_query(): Empty query in /home/zerfca/public_html/echo/test/forgot.php on line 14
+[28-Apr-2017 02:07:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:07:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:07:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:07:35 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:07:35 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:35 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:35 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:39 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:07:39 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:07:39 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:07:39 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:07:39 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:39 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:39 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:43 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:07:43 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:07:43 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:07:43 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:07:43 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:43 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:43 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:54 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:07:54 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:07:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:07:54 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:07:54 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:54 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:54 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:58 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:07:58 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:07:58 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:07:58 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:07:58 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:58 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:07:58 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:08:16 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:08:16 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:08:16 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:08:16 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:08:16 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:08:16 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:08:16 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:08:20 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:08:20 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:08:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:08:20 UTC] PHP Notice:  Undefined variable: GET_ in /home/zerfca/public_html/echo/test/forgot.php on line 12
+[28-Apr-2017 02:08:20 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:08:20 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:08:20 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:09:04 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:09:04 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:09:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:09:04 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:09:04 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:09:04 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:09:07 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:09:07 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:09:07 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:09:07 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:09:07 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:09:07 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 89
+[28-Apr-2017 02:09:25 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:09:25 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:09:25 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:09:25 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:25 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:25 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:26 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:09:26 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:09:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:09:26 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:26 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:26 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:28 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:09:28 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:09:28 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:09:28 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:28 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:28 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:30 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:09:30 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:09:30 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:09:30 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:30 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:09:30 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 90
+[28-Apr-2017 02:10:50 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:10:50 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:10:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:10:50 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:10:50 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:10:59 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:10:59 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:10:59 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:10:59 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:10:59 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:11:02 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:11:02 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:11:02 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:11:02 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:11:02 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:08 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:14:08 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:14:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:14:08 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:08 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:13 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:14:13 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:14:13 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:14:13 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:13 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:26 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:14:26 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:14:26 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:14:26 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:26 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:14:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:14:35 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:14:35 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:35 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:14:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:14:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:14:53 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:53 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:14:53 UTC] PHP Catchable fatal error:  Object of class mysqli_result could not be converted to string in /home/zerfca/public_html/echo/test/functions.php on line 190
+[28-Apr-2017 02:16:04 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:16:04 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:16:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:16:04 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:16:04 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:16:41 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:16:41 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:16:41 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:16:41 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:16:41 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:16:50 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:16:50 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:16:50 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:16:50 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:16:50 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 91
+[28-Apr-2017 02:17:12 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:17:12 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:17:12 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:17:12 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 92
+[28-Apr-2017 02:17:12 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 92
+[28-Apr-2017 02:19:00 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:19:00 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:19:00 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:19:00 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:19:00 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:19:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:19:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:19:06 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:19:06 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:19:06 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:19:49 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:19:49 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:19:49 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:19:49 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:19:49 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:23:29 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:23:29 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:23:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:23:29 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:23:29 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:23:29 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 93
+[28-Apr-2017 02:24:01 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:24:01 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:24:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:24:01 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:01 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:01 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:24:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:24:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:24:19 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:19 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:19 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:24 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:24:24 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:24:24 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:24:24 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:24 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:24:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:24:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:24:27 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:27 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:38 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:24:38 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:24:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:24:38 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:38 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:48 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:24:48 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:24:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:24:48 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:48 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:24:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:24:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:24:53 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:24:53 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 95
+[28-Apr-2017 02:25:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:25:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:25:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:25:46 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:25:46 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:25:51 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:25:51 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:25:51 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:25:51 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:25:51 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:26:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:26:19 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:26:19 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:19 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:26:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:26:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:26:33 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:33 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:33 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:56 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:26:56 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:26:56 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:26:56 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:56 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:56 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:59 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:26:59 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:26:59 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:26:59 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:59 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:26:59 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 98
+[28-Apr-2017 02:31:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:31:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:31:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:31:15 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:31:15 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:31:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:31:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:31:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:31:21 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:31:21 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:32:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:32:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:32:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:32:27 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:32:27 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:32:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:32:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:32:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:32:33 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:32:33 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:32:33 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:32:37 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:32:37 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:32:37 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:33:08 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:33:08 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:33:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:33:09 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:33:09 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:09 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:17 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:33:17 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:33:17 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:33:17 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:17 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:17 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:20 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:33:20 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:33:20 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:33:20 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:20 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:20 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:23 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:33:23 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:33:23 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:33:23 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:33:23 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:23 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:33:48 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:33:48 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:33:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:33:48 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 109
+[28-Apr-2017 02:33:48 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 109
+[28-Apr-2017 02:33:48 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 109
+[28-Apr-2017 02:33:55 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:33:55 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:33:55 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:33:55 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:33:55 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 109
+[28-Apr-2017 02:33:55 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 109
+[28-Apr-2017 02:34:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:34:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:34:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:34:21 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:34:21 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:34:21 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:34:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:34:27 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:34:27 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:34:27 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:34:27 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:34:27 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:34:31 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:34:31 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:34:31 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:34:31 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:35:01 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:01 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:01 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:35:01 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:01 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:01 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:04 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:04 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:04 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:35:04 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:35:04 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:04 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[28-Apr-2017 02:35:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50
+[28-Apr-2017 02:35:07 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:07 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:07 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:35:07 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:35:07 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:35:07 UTC] PHP Notice:  Undefined index: username in /home/zerfca/public_html/echo/test/login.php on line 70
+[28-Apr-2017 02:35:13 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:13 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:13 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:13 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:15 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:15 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:15 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[28-Apr-2017 02:35:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[28-Apr-2017 02:35:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50
+[28-Apr-2017 02:35:18 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:18 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:35:18 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:18 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:18 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:21 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:35:21 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:21 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:29 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:29 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:29 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:35:29 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:29 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:33 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:35:33 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:33 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:33 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:43 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:43 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:43 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:35:43 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:35:43 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:43 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 108
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[28-Apr-2017 02:35:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50
+[28-Apr-2017 02:35:47 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:47 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:47 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:35:47 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:35:47 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:35:47 UTC] PHP Notice:  Undefined index: username in /home/zerfca/public_html/echo/test/login.php on line 70
+[28-Apr-2017 02:35:51 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:35:51 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:35:52 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:35:52 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:37:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:37:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:37:35 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:37:35 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:37:35 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[28-Apr-2017 02:37:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[28-Apr-2017 02:37:35 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50
+[28-Apr-2017 02:37:38 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:37:38 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:37:38 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:37:38 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:38 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:38 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:43 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:37:43 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:37:43 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:37:43 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:43 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:52 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:37:52 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:37:52 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:37:52 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:52 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:52 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:37:57 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:37:57 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:37:57 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:37:57 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:38:18 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:38:18 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:38:18 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:38:19 UTC] PHP Notice:  Trying to get property of non-object in /home/zerfca/public_html/echo/test/forgot.php on line 19
+[28-Apr-2017 02:38:19 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:38:19 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[28-Apr-2017 02:38:21 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[28-Apr-2017 02:38:33 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50
+[28-Apr-2017 02:39:44 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:39:44 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:39:44 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:39:44 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:39:44 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 02:39:44 UTC] PHP Notice:  Undefined index: username in /home/zerfca/public_html/echo/test/login.php on line 70
+[28-Apr-2017 02:39:48 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:39:48 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:39:48 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:39:48 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:39:48 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:39:48 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:41:54 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:41:54 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:41:54 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:41:54 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:41:54 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:46:09 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:46:09 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:46:09 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:46:09 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:46:09 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:48:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 02:48:53 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 02:48:53 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 02:48:53 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:48:53 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 02:48:53 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[28-Apr-2017 03:01:05 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50
+[28-Apr-2017 03:01:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 03:01:06 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 03:01:06 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 03:01:06 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 03:01:06 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/login.php on line 59
+[28-Apr-2017 03:01:06 UTC] PHP Notice:  Undefined index: username in /home/zerfca/public_html/echo/test/login.php on line 70
+[28-Apr-2017 03:01:08 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 03:01:08 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 03:01:08 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 03:01:08 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 03:01:08 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 03:01:08 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 03:01:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 03:01:15 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 03:01:15 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 03:01:15 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 03:01:15 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 19:41:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[28-Apr-2017 19:41:46 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[28-Apr-2017 19:41:46 UTC] PHP Notice:  A session had already been started - ignoring session_start() in /home/zerfca/public_html/echo/test/functions.php on line 219
+[28-Apr-2017 19:41:46 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[28-Apr-2017 19:41:46 UTC] PHP Notice:  Undefined index: wmsg in /home/zerfca/public_html/echo/test/forgot.php on line 110
+[30-Apr-2017 00:31:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 65
+[30-Apr-2017 00:31:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/header.php on line 68
+[30-Apr-2017 00:31:19 UTC] PHP Notice:  Undefined index: smsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[30-Apr-2017 00:31:19 UTC] PHP Notice:  Undefined index: fmsg in /home/zerfca/public_html/echo/test/index.php on line 10
+[30-Apr-2017 00:31:19 UTC] PHP Notice:  Undefined variable: username in /home/zerfca/public_html/echo/test/index.php on line 48
+[30-Apr-2017 00:31:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 49
+[30-Apr-2017 00:31:19 UTC] PHP Notice:  Undefined variable: isadmin in /home/zerfca/public_html/echo/test/index.php on line 50

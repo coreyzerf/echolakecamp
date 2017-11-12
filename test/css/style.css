@@ -1,0 +1,1660 @@
+/* Website template by freewebsitetemplates.com */
+* {
+    box-sizing: content-box;
+}
+/*------------------------- Layout styles ------------------------*/
+body {
+	background:url(../images/web.jpg);
+	background-position: center top;
+	margin:0;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+p a {
+	color:#707070!important;
+}
+p a:hover {
+	color:#525252!important;
+}
+/*------------------------- Layout styles ------------------------*/
+.mySlides{display:none;}
+/*------------------------- Alert ------------------------*/
+.header div.alert {
+	color: white;
+	width: 600px;
+	float: right;
+	margin-right: 26.6vw;
+	padding: 20px;
+	text-align:center;
+	transition: opacity 0.6s;
+	margin-bottom: 5px;
+}
+.bad{background-color: #f44336;}
+.good{background-color: #4CAF50;}
+.warn {background-color: #ff9800;}
+
+/* The close button */
+.closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+/* When moving the mouse over the close button */
+.closebtn:hover {
+    color: black;
+}
+.content hr {
+	border-top: #717a5d;
+}
+/*------------------------- Font styles ------------------------*/
+@font-face {
+	font-family: 'forumregular';
+	src: url('../fonts/forum-regular-webfont.eot');
+	src: url('../fonts/forum-regular-webfont.eot?#iefix') format('embedded-opentype'), url('../fonts/forum-regular-webfont.woff') format('woff'), url('../fonts/forum-regular-webfont.ttf') format('truetype'), url('../fonts/forum-regular-webfont.svg#forumregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+/*------------------------- Header ------------------------*/
+.header {
+	background:url(../images/bg-header.png) repeat-x;
+	height:168px;
+	margin:0 0 41px;
+}
+.header-cont div {
+    width:100%;
+    position:fixed;
+}
+.header div a {
+	outline:none;
+}
+.header div {
+	margin:0 auto 40px auto;
+	padding:0 30px;
+	position: relative;
+	width: 69%;
+}
+.header div a#logo {
+	display:block;
+	float:left;
+	height:103px;
+	margin:3px 28px 0 0;
+	width:272px;
+	background-size: cover; 
+	-webkit-background-size: cover; 
+	-mox-background-size: cover; 
+	-o-background-size: cover;
+}
+.header div a#logo img {
+	border:0;
+}
+.header div ul {
+	list-style:none;
+	margin:0;
+	overflow:hidden;
+	padding:89px 0 0;
+}
+.header div ul li:first-child {
+	margin:0;
+}
+.header div ul li.selected {
+	background:url(../images/border-horizontal.gif) repeat-x left top #6b1110;
+}
+.header div ul li.notselected {
+	color:#252525
+}
+.header div ul li {
+	float:left;
+	height:51px;
+	margin:0 0 0 15px;
+	padding:0 10px;
+	text-align:center;
+}
+.header div ul li.selected a {
+	color:#fff;
+	text-shadow:0 -1px 0 #010101;
+}
+.header div ul li.notselected a {
+	color:#252525;
+}
+.header div ul li a {
+	display:block;
+	font-size:16px;
+	font-weight:700;
+	line-height:50px;
+	text-decoration:none;
+	/*text-shadow:0 -1px 0 #524437;*/
+	text-transform:uppercase;
+}
+.header div ul li a:hover {
+	color:#555;
+}
+.header div ul li.selected a:hover {
+	color:#fff;
+}
+.header div div.days {
+	/*background:url(../images/interface.png) no-repeat -10px -606px;*/
+	width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 50px solid #6b1110;
+    height: 13px;
+    padding: 0;
+    position: absolute;
+    right: 30px;
+    text-align: center;
+    top: 0;
+    width: 200px;
+}
+.header div div.days p {
+	color: #fff;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 18px 0 0;
+    text-shadow: 0 -1px 0 #030002;
+    text-transform: uppercase;
+    position: relative;
+    top: -50px;
+}
+.header div ul li a span {
+	font-size:20px;
+}
+.header div div p > span {
+	font-size:20px;
+	display: inline;
+}
+.header div div p > span > span {
+	color:#E17537;
+	display:inline;
+	font-size:19px;
+	margin:0;
+	width:auto;
+	padding:0;
+ *margin-right:4px; /* Needed for IE7 */
+}
+/*------------------------- Body ------------------------*/
+/*----------------------- BUTTONS ---------------------*/
+.content a.button, .content button.button {
+    margin-top: 5px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #6b1110;
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+	text-decoration: none;
+}
+.content a.button:hover, .content button.button:hover {
+	background-color: #400A0A;
+	color:#fff!important;
+}
+.content a.buttonwide, .content button.buttonwide {	
+    display: block;
+    width: 50%;
+	margin: 0 auto;
+}
+.content a.buttonsmall, .content button.buttonsmall {
+    width: 11%;
+	margin: 0 auto;
+}
+.content a.buttonmedium, .content button.buttonmedium {
+    width: 40%!important;
+	margin: 0 auto!important;
+	display: block;
+}
+.content a.button-top, .content button.button-top{
+	margin: 20px auto;
+}
+.content a.button-top-tiny, .content button.button-top-tiny{
+	margin: 1px auto;
+}
+/*----------------------- OTHER ---------------------*/
+.content div {
+	background:url(../images/shadow.png) no-repeat left bottom;
+	border:0;
+	margin:0 auto;
+	padding:10px 30px 42px;
+	width:900px;
+}
+.content div a {
+	outline:none;
+}
+.content div div.featured {
+	background:url(../images/shadow.png) no-repeat left bottom;
+	border-radius:0 0 0 0!important;
+	overflow:hidden;
+	padding:0 0 42px!important;
+}
+.content div div.featured span {
+	float: left;
+    width: 600px;
+    height: 379px;
+}
+.content div div.featured span img {
+	width:100%;
+	height:100%;
+}
+.content div div.featured div {
+	background:url(../images/frame1.gif) no-repeat center 12px #757e63;
+	border:0 none!important;
+	border-radius:0 0 0 0!important;
+	float:left;
+	height:379px;
+	padding:0!important;
+	text-align:center;
+	width:300px;
+}
+.content div div.featured div div {
+	background:url(../images/frame2.gif) no-repeat center 349px;
+	width:auto!important;
+}
+.content div div.featured div div h3 {
+	background:url(../images/interface.png) no-repeat -1px -680px;
+	border:0 none;
+	color:#534a39;
+	font-size:16px;
+	height:52px;
+	line-height:42px;
+	margin:24px auto 25px;
+	text-align:center;
+	width:281px;
+	text-indent: -5%;
+}
+.content div div.featured div div h3 span {
+	font-size:20px;
+}
+.content div div.featured div div p {
+	border:0!important;
+	color:#fff!important;
+	line-height:24px!important;
+	padding:0 30px!important;
+	letter-spacing:0.028em;
+	font-weight:normal;
+	font-size:18px
+}
+.content div div.featured div div a {
+	border:0!important;
+	color:#fff!important;
+	line-height:24px!important;
+	letter-spacing:0.028em;
+	font-weight:normal;
+	font-size:18px
+}
+.content div div {
+	background:none;
+	background-color:#e8e1ab;
+	border-radius:5px;
+	float:none!important;
+	overflow:hidden;
+	padding:17px 0!important;
+}
+.content div div div {
+	background:none;
+	border:1px solid #717a5d;
+	border-radius:0;
+	padding:0!important;
+	width:880px;
+}
+.content div div div div {
+	border-style:solid none;
+	margin:2px 0;
+}
+.content div div div div div.section {
+	border:0;
+	float:left;
+	margin:0;
+	padding:0!important;
+	width:588px;
+	border-color: #717A5D;
+	border-style: none solid none none;
+	border-width: 1px;
+}
+.content div div div div div.section h2 {
+	border-color:#717a5d;
+	border-width:1px;
+	color:#756752;
+	font-size:30px!important;
+	height:73px;
+	line-height:77px;
+	margin:2px auto;
+	text-align:center;
+	text-shadow:0 1px 0 #fff7c6;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:2px 0 0 !important;
+}
+.content div div div div div.section p {
+	border-color:#6d765b;
+	border-style:solid none none;
+	border-width:1px;
+	color:#6d765b;
+	line-height:24px;
+	margin:2px 0 0;
+	padding:24px 15px 0;
+	text-align:justify;
+	font-family: 'forumregular';
+	font-size:20px;
+	letter-spacing:0.028em;
+	color:#707070;
+}
+.content div div div div.section > p {
+	font-size:20px;
+}
+.content div div div div div.section p a {
+	color:#707070;
+	display:inline;
+	float:none;
+	font-size:20px;
+	font-weight:normal;
+	margin:0;
+	text-decoration:underline;
+	font-family: 'forumregular';
+}
+.content div div div div div.section ul {
+	float:left;
+	list-style:none;
+	margin:25px 0 28px;
+	padding:0 0 0 15px;
+	width:250px;
+}
+.content div div div div div.section ul.last {
+	padding:0 0 0 15px;
+	margin: 25px 0 0 44px;
+}
+.content div div div div div.section ul li {
+	background:url(../images/interface.png) no-repeat -362px 2px;
+	border-style:none;
+	margin:11px 0 0;
+	padding:0 0 0 20px;
+}
+.content div div div div div.section ul li p {
+	color:#707070;
+	display:inline;
+	float:none;
+	font-size:16px;
+	letter-spacing:0.028em;
+	line-height:24px;
+	text-decoration:none;
+	font-family: 'forumregular';
+	border:0;
+	margin:0;
+	padding:0;
+}
+.content div div div div div {
+	margin: 0;
+	width: 290px;
+	float:left!important;
+	border:0;
+}
+.content div div div div div.checkbox {
+	width: 100%;
+	margin-bottom: 10px;
+	float:left!important;
+	border:0;
+}
+.content div div div h3 {
+	color:#756555;
+	font-size:14px;
+	margin:0;
+	padding:9px 0 5px 17px;
+	text-align:left;
+	line-height:24px;
+	padding-left: 17px;
+	letter-spacing:0.028em;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+}
+.content div div div ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.content div div div ul li:first-child {
+	margin:2px 0 0;
+}
+.content div div div ul li {
+	border-color:#717a5d;
+	border-style:solid none none;
+	border-width:1px;
+	overflow:hidden;
+}
+.content div div div ul li.last {
+	border-color:#717a5d;
+	border-style:solid none;
+	border-width:1px;
+}
+.content div div div ul li div {
+	background:none;
+	width:290px!important;
+}
+.content div div div ul li div span {
+	color:#717A5D;
+	display:block;
+	font-size:16px;
+	font-weight:400;
+	margin:12px 0 0 17px;
+	font-family: 'forumregular';
+}
+.content div div div ul li div:first-child p {
+	border:0 none!important;
+	color:#707070;
+	font-size:16px!important;
+	letter-spacing:0.028em;
+	line-height:24px;
+	margin:2px 0 20px;
+	padding:6px 20px 0!important;
+	font-family: 'forumregular';
+}
+/*----------REMOVED FOR BOOTSTRAP COMPATIBALITY----------*/
+/*.content div div div a {
+	color:#756752;
+	display:block;
+	float:right;
+	font-size:16px;
+	margin:0 10px 0 0;
+	line-height:24px;
+	letter-spacing:0.028em;
+	padding:9px 0 0;
+	text-decoration:none;
+	font-family: 'forumregular';
+}
+.content div div div a:hover {
+	color:#756752!important;
+}*/
+.content div div div div.about, .content div div div div.programs, .content div div div div.competition, .content div div div div.activities, .content div div div div.application, .content div div div div.staff, .content div div div div.register, .content div div div div.staff, .content div div div div.blog, .content div div div div.adming, .content div div div div.events, .content div div div div.profile {
+	border-bottom: 0 none;
+	margin: 2px 0 0;
+	padding: 0 0 2px !important;
+	width: auto;
+}
+.content div div div div.about {
+	border:0;
+}
+.content div div div div.about div:first-child {
+	border-style:solid none none;
+	padding:0!important;
+	width:auto;
+}
+.content div div div div.section h2 {
+	margin:2px 0;
+	padding-bottom:3px;
+	width:589px!important;
+}
+/*.content div div div div.about div:first-child h2, .content div div div div.programs h2, .content div div div div.competition h2, .content div div div div.activities h2, .content div div div div.application h2, .content div div div div.staff h2, .content div div div div.register h2, .content div div div div.blog h2, .content div div div div.admin h2, .content div div div div.events h2, .content div div div div div.section h2, .content div.contact div div div.contact h2{
+	color:#756752;
+	text-transform:uppercase;
+	font-size:36px;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:19px 0 18px;
+	margin:0 0 2px !important;
+}*/
+.content h2{
+	color:#756752;
+	text-transform:uppercase;
+	font-size:36px;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:19px 0 18px;
+	margin:0 0 2px !important;
+}
+.content div.register div div h3{
+	color:#756752;
+	text-transform:uppercase;
+	font-size:24px;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	border-color: #717A5D;
+	border-style: none none solid;
+	border-width: 1px;
+	padding:19px 0 18px;
+	margin:0 0 2px !important;
+}
+.content div.register div div form{
+	margin:0 auto;
+}
+.content div div div div.about div:first-child div {
+	border-style:solid none solid;
+	padding:32px 30px 0!important;
+	width:auto;
+	border-width: 1px;
+	font-family: 'forumregular';
+	font-size:16px;
+	line-height:24px;
+	border-color: #717A5D;
+}
+.content div div div div.about div:first-child p {
+	border:0 none;
+	color:#707070;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin:4px 0 25px;
+	padding:0;
+	font-family: 'forumregular';
+}
+.content div div div div.about div:first-child p a {
+	color: #E17439;
+	display: inline;
+	float: none;
+	font-weight: 400;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.content div div div div.about div {
+	border-style:none none solid;
+	padding:32px 30px!important;
+	width:820px;
+	border-width:1px;
+	border-color: #717A5D;
+}
+.content div div div div.about div:first-child img {
+	margin-bottom:27px;
+}
+.content div div div div.about div div:first-child {
+	border:0!important;
+	margin-right:40px;
+	width:412px;
+}
+.content div div div div.about div div {
+	border:0;
+	float:left;
+	padding:0!important;
+	width:368px;
+}
+.content div div div div.about div div p {
+	border:0 none;
+	color:#707070;
+	font-size:16px;
+	letter-spacing:1px;
+	line-height:24px;
+	margin:5px 0 24px;
+	padding:0;
+	font-family: 'forumregular';
+}
+.content div div div div.about div div p a {
+	font-weight:400;
+	text-decoration:underline;
+	display:inline;
+	margin:0;
+	padding:0;
+	float:none;
+}
+.content div div div div.programs div.first, .content div div div div.competition div.first, .content div div div div.activities div.first, .content div div div div.staff div.first {
+	border-style:solid solid solid none;
+	width:248px;
+}
+.content div div div div.programs div, .content div div div div.competition div, .content div div div div.activities div, .content div div div div.staff div, .content div div div div.blog div,, .content div div div div.admin div, .content div div div div.events div {
+	border-style:solid none;
+	border-width:1px;
+	min-height:791px;
+	padding:33px 20px 0!important;
+	width:551px;
+	border-color:#717a5d;
+}
+.content div div div div.competition div h3.title {
+	margin:48px 0 0;
+}
+.content div div div div.programs div.first ul, .content div div div div.competition div.first ul, .content div div div div.activities div.first ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	width:252px;
+}
+.content div div div div.programs div.first ul li, .content div div div div.competition div.first ul li, .content div div div div.activities div.first ul li {
+	background:none;
+	margin:0;
+	padding:0;
+	width:auto;
+	border:0;
+}
+.content div div div div.programs div.first ul li.selected a {
+	color:#fff!important;
+}
+.content div div div div.programs div.first ul li.selected a:hover {
+	color:#fff!important;
+}
+.content div div div div.programs div.first ul li a {
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size:18px!important;
+	line-height:24px;
+}
+.content div div div div.programs div.first ul li a:hover, .content div div div div.activities div.first ul li a:hover, .content div div div div.competition div.first ul li a:hover {
+	color:#e9e1ac!important;
+	text-decoration:none;
+}
+.content div div div div.programs div.first ul li.selected a, .content div div div div.competition div.first ul li.selected a, .content div div div div.activities div.first ul li.selected a {
+	background:url(../images/interface.png) no-repeat -10px -803px!important;
+	height:42px;
+	text-shadow:0 -1px 0 #99562e;
+	width:252px;
+}
+.content div div div div.programs div.first ul li.selected a:hover, .content div div div div.competition div.first ul li.selected a:hover, .content div div div div.activities div.first ul li.selected a:hover {
+	color:#fff;
+}
+.content div div div div.programs div.first ul li a, .content div div div div.competition div.first ul li a, .content div div div div.activities div.first ul li a {
+	background:url(../images/interface.png) no-repeat -10px -751px!important;
+	color:#fff;
+	display:block;
+	font-size:21px;
+	font-weight:700;
+	height:42px;
+	line-height:36px;
+	margin:0 0 18px;
+	padding:0;
+	text-align:center;
+	text-shadow:0 -1px 0 #424242;
+	width:252px;
+}
+.content div div div div.programs div h3, .content div div div div.competition div h3, .content div div div div.activities div h3, .content div div div div.staff div h3 {
+	border:0 none;
+	font-size:21px;
+	margin:0;
+	padding:0;
+}
+.content div div div div.programs div p, .content div div div div.competition div p, .content div div div div.activities div p, .content div div div div.staff div p, .content div div div div.blog div p,, .content div div div div.admin div p, .content div div div div.events div p {
+	border:0;
+	font-size:16px;
+	margin:4px 0 24px;
+	padding:0;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-family: 'forumregular';
+	color:#707070;
+}
+.content div div div div.blog form p{
+	text-align: center;
+}
+.content div div div div.programs div p a, .content div div div div.competition div p a, .content div div div div.activities div p a {
+	display: inline;
+	float: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.content div div div div.competition div.first ul {
+	width:252px;
+}
+.content div div div div.competition div ul {
+	margin:5px 0 12px;
+	overflow:hidden;
+	padding:0;
+	width: auto;
+}
+.content div div div div.competition div ul li {
+	background:url(../images/interface.png) no-repeat -362px 2px;
+	float:left;
+	margin:0 0 11px;
+	padding:0 0 0 20px;
+	width:255px;
+	border:0;
+}
+.content div div div div.competition div ul li p {
+	margin:0;
+	padding: 0 14px 0 0;
+}
+.content div div div div.competition div ul li a {
+	background:none;
+	margin:0;
+	padding:0;
+	width:auto;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 18px !important;
+}
+.content div div div div.competition div.first ul li {
+	background:none;
+}
+.content div div div div.competition div.first ul li.selected a:hover {
+	color:#fff!important;
+}
+.content div div div div.activities div.first ul li.selected a:hover {
+	color:#fff!important;
+}
+.content div div div div.activities div ul {
+	margin:0;
+	padding: 14px 0 0;
+}
+.content div div div div.activities div ul li {
+	border:0;
+	background:url(../images/interface.png) no-repeat -362px 9px;
+	padding:0 0 0 20px;
+}
+.content div div div div.activities div.first ul li a {
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size: 18px !important;
+}
+.content div div div div.activities div p {
+	margin: 6px 0 0;
+}
+.content div div div div.activities div ul li a {
+	margin:0;
+	padding:0;
+}
+content div div div div.application  p, .content div div div div.register  p{
+	margin:0 0 25px 0;
+	text-align:center;
+}
+content div div div div.application form p, .content div div div div.register form p{
+	margin:0 0 25px 0;
+	text-align:center;
+}
+.content div div div div.register form textarea#address {
+	background:url(../images/interface.png) no-repeat -10px -517px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	height:65px;
+	margin:0 0 1px;
+	overflow:auto;
+	padding:7px 5px;
+	width:415px;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.content div div div div.register form div {
+	width:auto;
+}
+.content div div div div.application form div:first-child {
+	margin-bottom:52px;
+	width:435px!important;
+}
+.content div div div div.application form div:first-child td {
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	height:auto;
+	margin:0 10px 0 0;
+	text-transform:uppercase;
+	width:auto;
+}
+.content div div div div.application form div:first-child td, .content div div div div.register form div:first-child td, .content div div div div.contact form td {
+	padding:0 0 15px;
+	vertical-align:top;
+}
+.content div div div div.application form div:first-child label {
+	color:#776855;
+	display:inline-block;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	width:135px;
+	line-height: 30px;
+}
+.content div div div div.register form div:first-child label {
+	color:#776855;
+	display:inline-block;
+	font-size:16px;
+	font-weight:700;
+	text-transform:uppercase;
+	letter-spacing:0.028em;
+	width:229px;
+	line-height: 31px;
+}
+.content div div div div.register form div:first-child label.age {
+	margin:0 0 0 -140px;
+	width:auto;
+}
+.content div div div div.application form div:first-child input {
+	background:url(../images/interface.png) no-repeat -10px -946px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	padding:7px 5px;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.content div div div div.register form div:first-child input, .content div div div div.contact form input {
+	background:url(../images/interface.png) no-repeat -10px -1026px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	padding:7px 5px;
+	width:410px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.content div div div div.register form div:first-child input#duration, .content div div div div.register form div:first-child input#num-of-children, .content div div div div.register form div:first-child input#name-of-child {
+	background:url(../images/interface.png) no-repeat -10px -986px;
+	width:260px;
+}
+.content div div div div.register form div:first-child input#age {
+	background:url(../images/interface.png) no-repeat -301px -690px;
+	float:left;
+	margin:0 0 0 -84px;
+	padding:7px 5px;
+	width:60px;
+}
+.content div div div div.application form div:first-child input#gender1 {
+	background:none;
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	height:auto;
+	margin:0 10px 0 0;
+	text-transform:uppercase;
+	width:auto;
+}
+.content div div div div.register form div:first-child a img {
+	border:0;
+}
+.content div div div div.register form div input#submit {
+	background:url(../images/interface.png) no-repeat -276px -404px;
+	cursor:pointer;
+	float:right;
+	height:32px;
+	margin:0 0 65px;
+	padding:0 0 3px;
+	width:132px;
+	text-shadow:0 -1px 0 #99562e;
+	font-size:16px;
+	line-height:24px;
+	text-transform:uppercase;
+	color:#fff;
+	font-family:inherit;
+	letter-spacing:0.028em;
+}
+.content div div div div.register form div input#submit:hover {
+	background:url(../images/interface.png) no-repeat -276px -457px;
+}
+.content div div div div.application form div:first-child input#gender2 {
+	background:none;
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	height:auto;
+	margin:0 10px 0 20px;
+	text-transform:uppercase;
+	width:auto;
+}
+.content div div div div.application form div {
+	border:0;
+	float:left;
+	width:405px;
+}
+.content div div div div.application form div td {
+	padding:0 0 12px;
+}
+.content div div div div.application form div label {
+	color:#776855;
+	display:inline-block;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	width:130px;
+}
+.content div div div div.application form input#application-submit {
+	background:url(../images/interface.png) no-repeat -189px -859px;
+	border:0 none;
+	clear:both;
+	cursor:pointer;
+	display:block;
+	height:32px;
+	margin:0 auto;
+	width:222px;
+	text-align: center;
+	text-shadow: 0 -1px 0 #99562E;
+	text-transform: uppercase;
+	color:#fff;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	font-size:16px;
+	line-height:24px;
+	padding:0 0 3px;
+}
+.content div div div div.application form input#application-submit:hover {
+	background:url(../images/interface.png) no-repeat -215px -1066px;
+}
+.content div div div div.application textarea#address {
+	background:url(../images/interface.png) no-repeat -10px -404px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	height:89px;
+	overflow:auto;
+	padding:7px 5px;
+	width:250px;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.content div div div div.application form div input {
+	background:url(../images/interface.png) no-repeat -10px -946px;
+	border:0;
+	padding:7px 5px;
+	width:250px;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	color: #776855;
+}
+.content div.applications {
+	margin-bottom:335px;
+}
+.content div.register {
+	margin-bottom:195px;
+}
+.content div.register div h2, .events h2 , .content div.profile div h2 .content div.contact div h2{
+	color:#756752;
+	text-transform:uppercase;
+	font-size:36px!important;
+	letter-spacing:0.028em;
+	font-weight:bold;
+	text-shadow:0 1px 0 #fff8c7;
+	text-align:center;
+	padding:19px 0 18px!important;
+	margin-bottom:2px!important;
+}
+.content div div div div.staff div.first {
+	padding:29px 20px 4px !important;
+}
+.content div div div div.staff div.first h3:first-letter, .content div div div div.staff div.first h3 span {
+	font-size:26px;
+	color:#756752;
+}
+.content div div div div.staff div.first h3 {
+	border:0;
+	color:#776855;
+	display:inline-block;
+	font-size:20px;
+	font-weight:700;
+	margin:0;
+	padding:0;
+	text-transform:uppercase;
+}
+.content div div div div.staff div.first form {
+	margin:13px 0 0;
+}
+.content div div div div.staff div.first form input:first-child {
+	margin:0 0 15px;
+}
+.content div div div div.staff div.first form input {
+	background:url(../images/interface.png) no-repeat -10px -906px;
+	border:0;
+	color:#7c8668;
+	font-size:16px;
+	font-style:italic;
+	margin:0 0 4px;
+	padding:7px 5px;
+	text-shadow:1px 1px 1px #d3d7cd;
+	width:240px;
+	font-family: 'forumregular';
+}
+.content div div div div.staff div.first form a {
+	background: none repeat scroll 0 0 transparent;
+	color: #707070;
+	float: none;
+	font-size: 16px;
+	height: auto;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	text-indent: 0;
+	text-transform: none;
+	line-height:24px;
+	letter-spacing:0.028em;
+	width: auto;
+	font-family: 'forumregular';
+	text-shadow:none;
+}
+.content div div div div.staff div.first form a:hover {
+	color:#707070!important;
+}
+.content div div div div.staff div.first form input#submit {
+	background:url(../images/interface.png) no-repeat -333px -603px;
+	cursor:pointer;
+	float:right;
+	height:32px;
+	margin:4px 0 0;
+	padding:0 0 3px;
+	width:92px;
+	font-size:16px;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 -1px 0 #99562e;
+	font-style:normal;
+}
+.content div div div div.staff div.first form input#submit:hover {
+	background:url(../images/interface.png) no-repeat -333px -643px;
+}
+.content div div div div.staff div p {
+	margin: 14px 0 26px;
+}
+.content div div div div.staff div a {
+	background:url(../images/interface.png) no-repeat -293px -904px;
+	float:none;
+	height:29px;
+	margin:54px auto;
+	width:132px;
+	letter-spacing:0.028em;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 -1px 0 #99562e;
+	font-style:normal;
+	text-align:center;
+	padding:3px 0 0;
+}
+.content div div div div.staff div a:hover {
+	background:url(../images/interface.png) no-repeat -293px -948px;
+	color:#fff!important;
+}
+.content div div div div.staff div ul {
+	margin:4px 0 27px;
+	padding:0;
+	width:auto;
+}
+.content div div div div.staff div ul li {
+	border:0;
+	background:url(../images/interface.png) no-repeat -362px 2px;
+	padding:0 0 0 20px;
+	margin:0 0 7px;
+}
+.content div div div div.blog div.first, .content div div div div.admin div.first, .content div div div div.events div.first {
+	border-style:solid none;
+	min-height:720px;
+	padding:20px 20px 61px!important;
+	width:588px;
+	border-color: #717A5D;
+}
+.content div div div div.blog div p, .content div div div div.admin div p, .content div div div div.events div p {
+	color:#707070;
+	text-align: justify;
+}
+.content div div div div.blog div.first h3 {
+	margin-bottom:21px!important;
+}
+.content div div div div.blog div p {
+	margin:5px 0 24px;
+}
+.content div div div div.blog div p a {
+	margin:0;
+	padding:0;
+	display:inline;
+	float:none;
+	text-decoration:underline;
+}
+.content div div div div.events div p a {
+	display: inline;
+	float: none;
+	margin: 0;
+	padding: 0;
+	text-decoration: underline;
+}
+.content div div div div.events div p a:hover {
+	color:#515151;
+}
+.content div div div div.blog div.first h3, .content div div div div.events div.first h3 {
+	margin: 13px 0 23px;
+}
+.content div div div div.blog div h3, .content div div div div.events div h3 {
+	margin-bottom:30px;
+}
+.content div div div div.blog div ul, .content div div div div.events div ul {
+	margin:0;
+	padding:0;
+	width:251px;
+}
+.content div div div div.blog div ul li, .content div div div div.events div ul li {
+	background:none;
+	border-style:none none solid;
+	border-width:1px;
+	margin:0;
+	padding:0;
+}
+.content div div div div.blog div ul li div, .content div div div div.events div ul li div {
+	border:0;
+	min-height:0;
+	padding:25px 20px!important;
+	width:211px!important;
+}
+.content div div div div.blog div ul li div h3 {
+	margin:4px 0 26px;
+}
+.content div div div div.blog div ul li div p {
+	margin:6px 0 1px!important;
+	padding:0!important;
+}
+.content div div div div.blog div ul li div ul {
+	list-style:none;
+	padding:0;
+	margin:0;
+	width:auto;
+}
+.content div div div div.blog div ul li div ul li {
+	border:0;
+}
+.content div div div div.blog div ul li div ul li a {
+	padding:0;
+	margin:0;
+	float:none;
+}
+.content div div div div.blog div ul li div ul li a:hover {
+	text-decoration:underline;
+}
+.content div div div div.blog div ul li div span, .content div div div div.events div ul li div span {
+	font-size:16px;
+	margin: 3px 0 0;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-family: 'forumregular';
+}
+.content div div div div.events div ul li p {
+	letter-spacing:0;
+	margin:6px 0 0 !important;
+	padding:0!important;
+}
+.content div div div div.blog div ul li div a {
+	color:#707070;
+	display:block;
+	margin:0;
+	padding:0;
+}
+.content div div div div.blog.content div div div div.events {
+	width:880px;
+}
+.content div.contact {
+	margin-bottom:190px;
+}
+.content div.contact div.address {
+	border-style:solid none;
+	border-width:1px;
+	float:none!important;
+	padding:32px 20px 13px !important;
+	width:840px;
+	border-color: #717A5D;
+}
+.content div.contact div.address span {
+	color:#776855;
+	float:left;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	line-height:24px;
+	width:182px;
+	margin: 2px 0 0;
+}
+.content div.contact div.address span > span {
+	font-size:21px;
+	width:auto;
+	line-height:22px;
+	float: none;
+}
+.content div.contact div.address p {
+	border:0;
+	color:#7c8668;
+	float:left;
+	font-size:16px;
+	font-weight:700;
+	margin:5px 0 12px;
+	padding:0;
+	text-transform:uppercase;
+	width:655px;
+}
+.content div.contact form {
+	border-color:#717A5D;
+	border-style:none none solid;
+	border-width:1px;
+	clear:both;
+	margin:0 0 2px;
+	overflow:hidden;
+	padding:0 0 20px;
+	width:auto;
+}
+.content div.contact form table {
+	margin:0 20px;
+}
+.content div.contact h3 {
+	border:0 none;
+	color:#776855;
+	font-size:17px;
+	font-weight:700;
+	margin:0;
+	padding:28px 0 20px;
+	text-align:center;
+	text-transform:uppercase;
+}
+.content div.contact h3 span {
+	font-size:21px;
+}
+.content div.contact form label {
+	color:#776855;
+	display:inline-block;
+	font-size:17px;
+	font-weight:700;
+	text-transform:uppercase;
+	width:172px;
+	line-height: 30px;
+}
+.content div.contact form textarea {
+	background:url(../images/interface.png) no-repeat -10px -244px;
+	border:0;
+	color:#776855;
+	font-size:14px;
+	height:136px;
+	overflow:auto;
+	padding:7px 5px;
+	width:410px;
+	resize:none;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+.content div.contact form input#submit {
+	background:url(../images/interface.png) no-repeat -333px -603px;
+	float:right;
+	height:32px;
+	margin-right:263px;
+	padding:0;
+	width:92px;
+	cursor:pointer;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+	color:#fff;
+	text-transform:uppercase;
+	text-shadow:0 -1px 0 #99562e;
+	font-style:normal;
+	text-align:center;
+	padding:0 0 3px;
+	font-size:16px;
+}
+.content div.contact form input#submit:hover {
+	background:url(../images/interface.png) no-repeat -333px -643px;
+}
+.content div.contact div div div.contact {
+	border-bottom: 0 none;
+	margin-bottom: 0;
+	width: auto;
+}
+.content div div.featured div div h3 span, .content div div div div.application form div:first-child label span, .content div div div div.application form div:first-child td span, .content div div div div.register form div:first-child td span, .content div.contact div.address span span, .content div.contact form label span, .content div.contact h3 span, .content div div div div.application form div label span {
+	font-size:20px;
+}
+.content div div div div div.section ul li:first-child, .content div div div div.competition div ul li:first-child, .content div div div div.register form div:first-child a, .content div div div div.staff div ul li p {
+	margin:0;
+}
+.content div div div a:hover, .content div div div div.activities div ul li a:hover, .content div div div div.programs div ul li a:hover, .content div div div div.competition div ul li a:hover {
+	color:#E17537;
+}
+.content div div div div.about div:first-child h3 span, .content div div div div.about div div h3 span, .content div div div div.programs div h3:first-letter, .content div div div div.competition div h3:first-letter, .content div div div div.activities div h3:first-letter, .content div div div div.staff div h3:first-letter, .content div div div div.blog div h3:first-letter, .content div div div div.events div h3:first-letter {
+	font-size:27px;
+	color:#7c8668;
+	font-size:26px;
+	line-height:24px;
+	letter-spacing:0.028em;
+	font-weight:normal;
+}
+.content div div div div.about div:first-child h3, .content div div div div.programs div h3, .content div div div div.competition div h3, .content div div div div.activities div h3, .content div div div div.staff div h3, .content div div div div.activities div h3, .content div div div div.blog div h3, .content div div div div.events div h3, .content div div div div.about div div h3 {
+	border:0;
+	color:#7c8769;
+	font-size:20px;
+	margin:0;
+	padding:0;
+	text-align:left;
+	text-transform:uppercase;
+	font-weight:bold;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.content div div div div.programs div ul li a:first-letter, .content div div div div.competition div ul li a:first-letter, .content div div div div.activities div ul li a:first-letter, .content div div div div.staff div.first h3 span {
+	font-size:25px;
+}
+.content div div div div.blog div, .content div div div div.events div {
+	border-width:1px;
+	border-style:solid none solid solid;
+	padding:0 0 10px!important;
+	width:251px;
+	border-color: #717A5D;
+}
+/*----------------------Custom Content---------------------*/
+.content table{
+	margin: 0 auto;
+	width: 50%;
+}
+.content .register table{
+	margin: 0 20% auto;
+}
+table.diff{
+	margin: 0 20% auto;
+    width: 0;
+}
+.content td{
+	text-align: left;
+}
+.content td.h{
+	text-align: right;
+}
+/*------------------------- Footer ------------------------*/
+.footer {
+	background-color: #073153;
+    border-color: #041c2f;
+	border-style:solid none none;
+	border-width:1px;
+}
+.footer div a {
+	outline:none;
+}
+.footer div:first-child {
+	margin:0 auto;
+	overflow:hidden;
+	padding:0 30px 7px;
+	width:900px;
+}
+.footer div:first-child div:first-child {
+	background:url(../images/interface.png) no-repeat -10px 0;
+	height:234px;
+	margin:22px 0 0;
+	width:285px;
+}
+.footer div:first-child div:first-child h3 {
+	color:#7B8668;
+	font-size:22px;
+	margin:35px 0 0 5px;
+	letter-spacing:0.075em;
+	font-family:sans-serif;
+	font-weight:bold;
+	text-align:center;
+}
+.footer div:first-child div:first-child p {
+	color:#e9e1ac;
+	font-size:16px;
+	font-weight:normal;
+	letter-spacing:0.028em;
+	line-height:24px;
+	margin:25px 0 0 5px;
+	padding:0;
+	text-align:left;
+	width:auto;
+	font-family: 'forumregular';
+}
+.footer div:first-child div:first-child form {
+	margin:24px 0 0 5px;
+	overflow:hidden;
+}
+.footer div:first-child div:first-child input:first-child {
+	background:url(../images/interface.png) no-repeat -10px -1066px;
+	color:#fff;
+	cursor:auto;
+	font-size:16px;
+	font-style:italic;
+	height:auto;
+	margin:0;
+	padding:7px 5px 5px;
+	line-height:0;
+	text-shadow:0 1px 0 #848973;
+	width:190px;
+	cursor:text;
+	font-family: 'forumregular';
+	letter-spacing:0.028em;
+	text-transform:capitalize;
+}
+.footer div:first-child div:first-child input:first-child:hover {
+	background:url(../images/interface.png) no-repeat -10px -1066px;
+}
+.footer div:first-child div:first-child input {
+	background:url(../images/interface.png) no-repeat -380px -684px;
+	border:0;
+	cursor:pointer;
+	float:left;
+	height:30px;
+	margin:0 0 0 10px;
+	padding:0;
+	width:50px;
+	font-size:16px;
+	line-height:24px;
+	text-transform:uppercase;
+	letter-spacing:0.028em;
+	text-shadow:0 -1px 0 #99562e;
+	color:#fff;
+	font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+}
+.footer div:first-child div:first-child input:hover {
+	background:url(../images/interface.png) no-repeat -380px -717px;
+}
+.footer div:first-child div {
+	float:left;
+	margin:0 0 0 45px;
+	width:310px;
+}
+.footer div:first-child div h4 {
+	color:#6B755A;
+	font-size:18px;
+	font-weight:400;
+	margin:35px 0 15px;
+	text-shadow:0 -1px 0 #141615;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.footer div:first-child div ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.footer div:first-child div ul li:first-child {
+	background:none;
+	padding:0 0 11px;
+}
+.footer div:first-child div ul li {
+	background:url(../images/border-horizontal.gif) repeat-x left top;
+	padding:3px 0 11px;
+	position:relative;
+}
+.footer div:first-child div ul li p {
+	margin:0;
+	padding:0;
+	text-align:left;
+	width:auto;
+}
+.footer div:first-child div ul li p a {
+	color:#533030;
+	font-size:16px;
+	letter-spacing:0.028em;
+	line-height:24px;
+	font-family: 'forumregular';
+	text-decoration:none;
+}
+.footer div:first-child div ul li p a:hover {
+	color:#aaaaaa!important;
+}
+.footer div:first-child div ul li span {
+	bottom:10px;
+	color:#6B755A;
+	font-size:16px;
+	font-weight:normal;
+	font-family: 'forumregular';
+	letter-spacing:0.028em;
+	position:absolute;
+	line-height:24px;
+	right:0;
+}
+.footer div:first-child div.connect {
+	margin-left: 70px;
+	width: 130px;
+}
+.footer div:first-child div.connect a:hover {
+	color:#E8E1AB;
+}
+.footer div:first-child div.connect a {
+	color:#828282;
+	display:block;
+	font-size:14px;
+	font-weight:700;
+	text-align:center;
+	line-height:28px;
+	letter-spacing:0.025em;
+	text-decoration:none;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.footer div:first-child div.connect a:hover {
+	color:#aaaaaa;
+}
+.footer div:first-child div.connect a.facebook {
+	background:url(../images/fbwht.png) no-repeat;
+	height:29px;
+	margin:22px 0 0 2px;
+	padding-left:40px;
+	width:30px;
+}
+.footer div:first-child div.connect a.facebook:hover {
+	background:url(../images/fbblue.png) no-repeat;
+}
+.footer div:first-child div.connect a.twitter {
+	background:url(../images/twitwht.png) no-repeat;
+	height:auto;
+	margin:10px 0 0 2px;
+	padding-left:40px;
+	width:auto;
+	max-height:29px;
+	max-width:29px;
+}
+.footer div:first-child div.connect a.twitter:hover {
+	background:url(../images/twitblue.png) no-repeat;
+}
+.footer div:first-child div.connect a.google {
+	background:url(../images/instawht.png) no-repeat;
+	height:29px;
+	line-height: 26px;
+	margin:10px 0 0 2px;
+	padding-left:40px;
+	width:30px;
+}
+.footer div:first-child div.connect a.google:hover {
+	background:url(../images/instacol.png) no-repeat;
+}
+.footer div:first-child div.connect a.youtube {
+	background:url(../images/ytsqwht.png) no-repeat;
+	height:29px;
+	line-height: 26px;
+	margin:10px 0 0 2px;
+	padding-left:40px;
+	width:30px;
+}
+.footer div:first-child div.connect a.youtube:hover {
+	background:url(../images/ytsqred.png) no-repeat;
+}
+.footer div {
+	background:url(../images/border-horizontal.gif) repeat-x left top;
+}
+.footer div p {
+	color:#6b7459;
+	font-size:16px;
+	margin:0 auto;
+	letter-spacing:0.028em;
+	padding:10px 60px 14px 0;
+	text-align:right;
+	width:900px;
+	font-family: 'forumregular';
+}
+button {
+    width: 100%;
+    font-size: 18px;
+    color: #fff;
+    background-color: #6b1110;
+    display: inline-block;
+    padding: 6px 0px;
+    margin-bottom: 0;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+}
+button:hover {
+	background-color: #400A0A;
+	color:#fff!important;
+}
+button:disabled {
+	background-color: #A9A9A9!important;
+	pointer-events: auto;
+}
+.formleft{
+    width: 50%!important;
+    float: left;
+    clear: right;
+}
+.formright{
+    width: 49%!important;
+    float: right;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: 6px 0px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.form-signin{
+	width:95%;
+	margin:0 auto;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}

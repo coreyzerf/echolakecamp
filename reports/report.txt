@@ -1,0 +1,26 @@
+##REPORTS
+
+==REGISTRAR REPORT
++Sort by Gender, Last
+Last, First, Email, Birthday, Phone, Street, City, Postal, Province, Country, Emergency, Emergency Phone, Health Card, Allergy, Special Concerns, Paid
+
+==KITCHEN REPORT
++Sort by Last?
+Last, First, Allergy, Special Concerns, Emergency, Emergency Phone
+
+==MEDICAL REPORT
++Sort by Last?
+Last, First, Allergy, Special Concerns, Emergency, Emergency Phone, Health Card
+
+
+$header = "Last,First,Email,Birthday,Phone,Street,City,Postal,Province,Country,Emergency,Emergency Phone,Health Card,Allergy,Special Concerns,Paid";
+while ($row = $result->fetch_assoc())
+	{
+		if (!isset($row['username'])){
+			$_SESSION['fmsg'] = "Something went wrong";
+			header('Location: ../admin.php');
+		}
+		
+		$data .= $row['last'] . "," . $row['first'] . "," . $row['email'] . "," . $row['birthday'] . "," . $row['phone'] . "," . $row['street'] . "," . $row['city'] . "," . $row['province'] . "," . $row['postal'] . "," . $row['country'] . "," . $row['emergency'] . "," . $row['emergnum'] . "," . $row['healthnum'] . "," . $row['allergy'] . "," . $row['healthconcerns'] . "\n";
+		
+	}
