@@ -6,7 +6,7 @@
 
 	$page = $_SERVER['PHP_SELF'];
 	$now = time(); // or your date as well
-	$your_date = strtotime("2017-08-20");
+	$your_date = strtotime("2018-02-09");
 	$datediff = $your_date - $now;
 	$until = floor($datediff / (60 * 60 * 24));
 	
