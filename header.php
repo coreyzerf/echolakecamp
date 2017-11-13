@@ -69,8 +69,8 @@
 				<li class=<?php if (strpos($page, 'admin') !== false) { echo '"selected"'; } else { echo '"notselected"'; } ?> <?php if ( !$isadmin ){echo "style=\"display:none;\"";}?>>
 					<a href="admin.php">Admin</a>
 				</li>
-				<li class=<?php if (strpos($page, 'programs') !== false) { echo '"selected"'; } else { echo '"notselected"'; } ?>>
-					<a href="programs.php">About</a>
+				<li class=<?php if (strpos($page, 'about') !== false) { echo '"selected"'; } else { echo '"notselected"'; } ?>>
+					<a href="about.php">About</a>
 				</li>
 				<!--li class=<?php if (strpos($page, 'blog') !== false) { echo '"selected"'; } else { echo '"notselected"'; } ?>>
 					<a href="blog.php">Blog</a>
