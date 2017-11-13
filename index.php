@@ -114,7 +114,7 @@
 									<div>
 										11/10/2011
 										<p>
-											This is just a face holder, so you can see what the site would look like.
+											This is just a place holder, so you can see what the site would look like.
 										</p>
 									</div>
 								</li>
