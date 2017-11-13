@@ -1,7 +1,7 @@
 <?php
 	require('connect.php');
 	require('functions.php');
-	
+	//
 	session_start();
 
 	$page = $_SERVER['PHP_SELF'];
