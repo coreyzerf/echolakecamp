@@ -1,5 +1,5 @@
 <?php
-	$title = "Competition - Echolakecamp.org";
+	$title = "Competition - Echolakecamp.ca";
 	require('header.php');
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 	

@@ -54,7 +54,7 @@
 			
 			$actual_link = "https://$_SERVER[HTTP_HOST]/test/"."forgot.php?id=" . $uniq;
 			$toEmail = $email;
-			$subject = "Password Reset | Echolakecamp.org";
+			$subject = "Password Reset | Echolakecamp.ca";
 			$content = "
 			<html>
 			<body>
@@ -87,7 +87,7 @@
 			
 			$actual_link = "https://$_SERVER[HTTP_HOST]/test/"."forgot.php?id=" . $uniq;
 			$toEmail = $email;
-			$subject = "Password Reset | Echolakecamp.org";
+			$subject = "Password Reset | Echolakecamp.ca";
 			$content = "
 			<html>
 			<body>
