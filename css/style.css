@@ -31,6 +31,18 @@ p a:hover {
 	transition: opacity 0.6s;
 	margin-bottom: 5px;
 }
+
+ div.alert {
+	color: white;
+	width: 600px;
+	float: right;
+	margin-right: 26.6vw;
+	padding: 20px;
+	text-align:center;
+	transition: opacity 0.6s;
+	margin-bottom: 5px;
+}
+
 .bad{background-color: #f44336;}
 .good{background-color: #4CAF50;}
 .warn {background-color: #ff9800;}
