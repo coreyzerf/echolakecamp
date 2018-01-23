@@ -1,5 +1,5 @@
 <?php
-	$title = "Home - Echolakecamp.org";
+	$title = "Home - Echolakecamp.ca";
 	include('header.php');
 	//require('connect.php');
 	//require('functions.php');

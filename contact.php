@@ -1,5 +1,5 @@
 <?php
-	$title = "Contact - Echolakecamp.org";
+	$title = "Contact - Echolakecamp.ca";
 	require('header.php');
 	if (isset($_POST['save'])){
 		$contact = $_POST['contact'];
@@ -8,25 +8,25 @@
 		$name = $_POST['name'];
 		$message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 		if ($contact == "regist"){
-		$toEmail = "registrar@echolakecamp.org";
+		$toEmail = "registrar@Echolakecamp.ca";
 		$staff = "Susan Zerf";
 		}elseif ($contact == "rental"){
-		$toEmail = "rentals@echolakecamp.org";
+		$toEmail = "rentals@Echolakecamp.ca";
 		$staff = "Rebecca Kennedy";
 		}elseif ($contact == "summer"){
-		$toEmail = "summermanager@echolakecamp.org";
+		$toEmail = "summermanager@Echolakecamp.ca";
 		$staff = "Steve Hutchison";
 		}elseif ($contact == "weeken"){
-		$toEmail = "weekendmanager@echolakecamp.org";
+		$toEmail = "weekendmanager@Echolakecamp.ca";
 		$staff = "Scott Kennedy";
 		}elseif ($contact == "websit"){
-		$toEmail = "admin@echolakecamp.org";
+		$toEmail = "admin@Echolakecamp.ca";
 		$staff = "Corey Zerf";
 		}elseif ($contact == "promot"){
-		$toEmail = "promotions@echolakecamp.org";
+		$toEmail = "promotions@Echolakecamp.ca";
 		$staff = "Brittany Zerf";
 		}
-		$appendedsubject = "[Contact Form @ Echolakecamp.org] " . $subject;
+		$appendedsubject = "[Contact Form @ Echolakecamp.ca] " . $subject;
 		$content = "
 		<html>
 		<body>
@@ -39,11 +39,11 @@
 		<hr>
 		<p>You can click <a href=\"mailto:".$email."?Subject=RE:".$subject."\" target=\"_top\">here</a> to reply. If not, you can contact Corey.
 		<p>Thanks,</p>
-		<p>Echolakecamp.org Website</p>
+		<p>Echolakecamp.ca Website</p>
 		";
 		$headers = "MIME-Version: 1.0" . "\r\n";
 		$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";	
-		$headers .= 'From: Echolakecamp.org<admin@echo.zerf.ca>' . "\r\n";
+		$headers .= 'From: Echolakecamp.ca<admin@echo.zerf.ca>' . "\r\n";
 		$headers .= 'Reply-To: ' . $email . "\r\n";
 		if(mail($toEmail, $appendedsubject, $content, $headers)) {
 			$_SESSION['smsg'] = "Your email has been sent.";			

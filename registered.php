@@ -55,7 +55,7 @@
 			$result = mysqli_query($connection, $query);		
 		
 			$toEmail = $email;
-			$subject = "Registered! | Echolakecamp.org";
+			$subject = "Registered! | Echolakecamp.ca";
 			$content = "
 			<html>
 			<body>

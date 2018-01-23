@@ -1,5 +1,5 @@
 <?php
-	$title = "Admin Settings - Echolakecamp.org";
+	$title = "Admin Settings - Echolakecamp.ca";
 	include('header.php');
 	//require('connect.php');
 	//require('functions.php');
