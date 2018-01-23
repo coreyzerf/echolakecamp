@@ -91,8 +91,8 @@
 											echo '<p>You are not eligible to register for camp. Please check the errors and your profile and try again.</p>';
 											echo '<a class="button buttonwide button-top" href="profile.php">Profile</a>';
 										}else{
-											msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 											echo '<p>Great! You are eligible to register for the following camps:';
+											msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 											echo '<table>';
 											echo '<form class="form-signin" method="POST" action="./confirm.php">';
 											while($rowcamp = $resultcamp->fetch_assoc()){
