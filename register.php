@@ -86,12 +86,12 @@
 									if($resultcamper->num_rows == 0){
 										$_SESSION['wmsg'] = "Something went wrong.";
 									}
-									msgbox ($_SESSION['smsg']);
 									echo '<h2>REGISTER FOR A CAMP</h2>';
 										if (!$eligible){
 											echo '<p>You are not eligible to register for camp. Please check the errors and your profile and try again.</p>';
 											echo '<a class="button buttonwide button-top" href="profile.php">Profile</a>';
 										}else{
+											msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 											echo '<p>Great! You are eligible to register for the following camps:';
 											echo '<table>';
 											echo '<form class="form-signin" method="POST" action="./confirm.php">';
