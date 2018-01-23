@@ -86,6 +86,7 @@
 									if($resultcamper->num_rows == 0){
 										$_SESSION['wmsg'] = "Something went wrong.";
 									}
+									msgbox ($_SESSION['smsg']);
 									echo '<h2>REGISTER FOR A CAMP</h2>';
 										if (!$eligible){
 											echo '<p>You are not eligible to register for camp. Please check the errors and your profile and try again.</p>';
