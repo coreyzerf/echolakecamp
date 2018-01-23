@@ -92,7 +92,6 @@
 											echo '<a class="button buttonwide button-top" href="profile.php">Profile</a>';
 										}else{
 											echo '<p>Great! You are eligible to register for the following camps:';
-											msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 											echo '<table>';
 											echo '<form class="form-signin" method="POST" action="./confirm.php">';
 											while($rowcamp = $resultcamp->fetch_assoc()){
@@ -100,6 +99,8 @@
 												$season = $rowcamp['season'];
 												$date = $rowcamp['date'];
 												echo '<tr>';
+												echo '<td>' . msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']); . '</td>';
+												echo '</tr><tr>';
 												echo "<td class='h'>" . $season . " Camp " . date("Y", strtotime($date)) . "</td>";
 												echo "<td><button class=\"button\" name=\"register\" value=\"" . $campid ."\" type=\"submit\">Register </button></td>";
 												echo '</tr>';
