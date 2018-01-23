@@ -99,7 +99,7 @@
 												$season = $rowcamp['season'];
 												$date = $rowcamp['date'];
 												echo '<tr>';
-												echo '<td>' . msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']); . '</td>';
+												echo '<td>' . msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']) . '</td>';
 												echo '</tr><tr>';
 												echo "<td class='h'>" . $season . " Camp " . date("Y", strtotime($date)) . "</td>";
 												echo "<td><button class=\"button\" name=\"register\" value=\"" . $campid ."\" type=\"submit\">Register </button></td>";
