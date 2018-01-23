@@ -8,7 +8,17 @@
 		$_SESSION['fmsg'] = "Staff currently cannot register for camp.";
 	}elseif (isset($_SESSION['username'])){
 		$username = $_SESSION['username'];
-		$eligible = eligible($username, 1);		
+		$eligible = eligible($username, 1);
+		$querycamper = "SELECT * FROM `EchoPeople` WHERE username='$username'";
+		$querycamp = "SELECT * FROM `camps` WHERE UNIX_TIMESTAMP(date) >= UNIX_TIMESTAMP(DATE(NOW()))";
+		$resultcamper = mysqli_query($connection, $querycamper) or die(mysqli_error($connection));
+		$resultcamp = mysqli_query($connection, $querycamp) or die(mysqli_error($connection));
+		if($resultcamp->num_rows == 0){
+			$_SESSION['wmsg'] = "There are no active camps";
+		}
+		if($resultcamper->num_rows == 0){
+			$_SESSION['wmsg'] = "Something went wrong.";
+		}		
 	}elseif (isset($_POST['username']) && isset($_POST['password'])){
         $id = uniqid();
         $_SESSION["id"] = $id;
@@ -76,16 +86,7 @@
 								if ($isadmin){
 									echo '<a class="button buttonwide button-top" href="index.php">Back</a>';
 								}else{
-									$querycamper = "SELECT * FROM `EchoPeople` WHERE username='$username'";
-									$querycamp = "SELECT * FROM `camps` WHERE UNIX_TIMESTAMP(date) >= UNIX_TIMESTAMP(DATE(NOW()))";
-									$resultcamper = mysqli_query($connection, $querycamper) or die(mysqli_error($connection));
-									$resultcamp = mysqli_query($connection, $querycamp) or die(mysqli_error($connection));
-									if($resultcamp->num_rows == 0){
-										$_SESSION['wmsg'] = "There are no active camps";
-									}
-									if($resultcamper->num_rows == 0){
-										$_SESSION['wmsg'] = "Something went wrong.";
-									}
+									
 									echo '<h2>REGISTER FOR A CAMP</h2>';
 										if (!$eligible){
 											echo '<p>You are not eligible to register for camp. Please check the errors and your profile and try again.</p>';
@@ -93,9 +94,6 @@
 										}else{
 											echo '<p>Great! You are eligible to register for the following camps:';
 											echo '<table>';
-											echo '<tr>';
-											echo '<td>' . msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']) . '</td>';
-											echo '</tr>';
 											echo '<form class="form-signin" method="POST" action="./confirm.php">';
 											while($rowcamp = $resultcamp->fetch_assoc()){
 												$campid = $rowcamp['campid'];
