@@ -57,7 +57,8 @@
 				$headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";	
 				$headers .= 'From: Echo Lake Staff <echo@zerf.ca>' . "\r\n";
 				if(mail($toEmail, $subject, $content, $headers, "-f echo@zerf.ca")) {
-					$_SESSION['smsg'] = "We have sent you an activation email. Please click the activation link to activate your account.";	
+					$_SESSION['smsg'] = "We have sent you an activation email. Please click the activation link to activate your account.";
+					header('Location: login.php');
 				}
 				unset($_POST);
 				
