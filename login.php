@@ -55,7 +55,7 @@
 		$_SESSION['smsg'] = "Welcome back!<br>";
 		header('Location: index.php');
 		 
-	}else{
+	}
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 	
 ?>
