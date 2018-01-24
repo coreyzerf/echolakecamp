@@ -97,7 +97,7 @@
 
 						  <!-- Specify details about the item that buyers will purchase. -->
 						  <input type="hidden" name="item_name" value="<?php echo $camp['season'];?> Camp Registration">
-						  <input type="hidden" name="amount" value="0">
+						  <input type="hidden" name="amount" value="<?php echo $price; ?>">
 						  <input type="hidden" name="currency_code" value="CAD">
 						  
 						  <input type="hidden" name="return" value="http://www.echolakecamp.ca/registered.php">
