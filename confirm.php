@@ -96,17 +96,12 @@
 						  <input type="hidden" name="cmd" value="_xclick">
 
 						  <!-- Specify details about the item that buyers will purchase. -->
-						  <input type="hidden" name="item_name" value="Camp Registration">
+						  <input type="hidden" name="item_name" value="<?php echo $camp['season'];?> Camp Registration">
 						  <input type="hidden" name="amount" value="<?php echo $price; ?>">
 						  <input type="hidden" name="currency_code" value="CAD">
 
 						  <!-- Display the payment button. -->
 						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay <?php echo $price; ?> by PayPal</button>
-						  <input type="image" name="submit" border="0"
-						  src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif"
-						  alt="Pay Now">
-						  <img alt="" border="0" width="1" height="1"
-						  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
 
 						</form>
 						<form class="form-signin" method="POST" action="./registered.php">
