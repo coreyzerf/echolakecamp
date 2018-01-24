@@ -7,9 +7,9 @@
 	$today = time();
 	
 	if ( !acctverify($_SESSION['username'])){
-	session_unset();
+	//session_unset();
 	$_SESSION['fmsg'] = "You are not logged in.";
-	header('Location: index.php');
+	//header('Location: index.php');
 	}elseif (isset($_POST['method'])){
 		$method = $_POST['method'];
 		$username = $_SESSION['username'];
