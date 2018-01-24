@@ -97,11 +97,11 @@
 
 						  <!-- Specify details about the item that buyers will purchase. -->
 						  <input type="hidden" name="item_name" value="<?php echo $camp['season'];?> Camp Registration">
-						  <input type="hidden" name="amount" value="<?php echo $price; ?>">
+						  <input type="hidden" name="amount" value="0">
 						  <input type="hidden" name="currency_code" value="CAD">
 
 						  <!-- Display the payment button. -->
-						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay <?php echo $price; ?> by PayPal</button><br>
+						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay $<?php echo $price; ?> by PayPal</button><br>
 
 						</form>
 						<form class="form-signin" method="POST" action="./registered.php">
