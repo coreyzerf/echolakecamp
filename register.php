@@ -39,7 +39,8 @@
 				unset($_SESSION['fmsg']);
 				//$_SESSION['smsg'] = "User Created Successfully.";
 				
-				$actual_link = "http://$_SERVER[HTTP_HOST]/test/"."activate.php?id=" . $id;
+				$actual_link = "http://$_SERVER[HTTP_HOST]/"."activate.php?id=" . $id;
+				$actual_link = "http://$_SERVER[HTTP_HOST]/"."activate.php?id=" . $id;
 				$toEmail = $_POST["email"];
 				$subject = "User Registration Activation Email";
 				$content = "
