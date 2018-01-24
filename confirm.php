@@ -101,7 +101,7 @@
 						  <input type="hidden" name="currency_code" value="CAD">
 
 						  <!-- Display the payment button. -->
-						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay <?php echo $price; ?> by PayPal</button>
+						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay <?php echo $price; ?> by PayPal</button><br>
 
 						</form>
 						<form class="form-signin" method="POST" action="./registered.php">
