@@ -101,6 +101,9 @@
 						  <input type="hidden" name="currency_code" value="CAD">
 						  
 						  <input type="hidden" name="return" value="http://www.echolakecamp.ca/registered.php">
+						  <input type="hidden" name="rm" value="2">
+						  <input type="hidden" name="cancel_return" value="2">
+						  <input type="hidden" name="no_shipping" value="1">
 
 						  <!-- Display the payment button. -->
 						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay $<?php echo $price; ?> by PayPal</button><br>
