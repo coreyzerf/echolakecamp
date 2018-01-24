@@ -102,7 +102,6 @@
 							}else{
 								echo '<h3>UH-OH!</h3>';
 								echo "<br><p>Something has gone wrong. But never fear, everything can be fixed! Please try again, or contact echoregistrar@gmail.com</p>";
-								<?php 
 
 								 foreach ($_POST as $key => $value) {
 								  echo '<p>'.$key.'</p>';
@@ -114,8 +113,6 @@
 								  }
 
 								} 
-
-								 ?>
 							}
 						?>
 					</div>
