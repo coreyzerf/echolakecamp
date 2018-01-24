@@ -87,7 +87,7 @@
 						<hr noshade>
 						<br>
 						<p>Please choose the payment option below:</p>
-						<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+						<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
 
 						  <!-- Identify your business so that you can collect the payments. -->
 						  <input type="hidden" name="business" value="corey@zerf.ca">
@@ -99,6 +99,8 @@
 						  <input type="hidden" name="item_name" value="<?php echo $camp['season'];?> Camp Registration">
 						  <input type="hidden" name="amount" value="0">
 						  <input type="hidden" name="currency_code" value="CAD">
+						  
+						  <input type="hidden" name="return" value="http://www.echolakecamp.ca/registered.php">
 
 						  <!-- Display the payment button. -->
 						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay $<?php echo $price; ?> by PayPal</button><br>
