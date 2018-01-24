@@ -90,11 +90,32 @@
 						<form class="form-signin" method="POST" action="./registered.php">
 						<input type="hidden" name="campid" value="<?php echo $camp['campid']; ?>">
 						<input type="hidden" name="price" value="<?php echo $price; ?>">
+						<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+						  <!-- Identify your business so that you can collect the payments. -->
+						  <input type="hidden" name="business" value="corey@zerf.ca">
+
+						  <!-- Specify a Buy Now button. -->
+						  <input type="hidden" name="cmd" value="_xclick">
+
+						  <!-- Specify details about the item that buyers will purchase. -->
+						  <input type="hidden" name="item_name" value="Camp Registration">
+						  <input type="hidden" name="amount" value="130">
+						  <input type="hidden" name="currency_code" value="CAD">
+
+						  <!-- Display the payment button. -->
+						  <input type="image" name="submit" border="0"
+						  src="https://www.paypalobjects.com/en_US/i/btn/btn_paynow_LG.gif"
+						  alt="Buy Now">
+						  <img alt="" border="0" width="1" height="1"
+						  src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" >
+
+						</form>
 						<?php
 							if ($registered) {
 								echo '<p> It would appear that you are already registered for this camp. Please contact our registrar (<a href="mailto:echoregistrar@gmail.com">echoregistrar@gmail.com</a>) for assistance</p>';
 							}else{
-								echo "<button class=\"button buttonmedium\" name=\"method\" value=\"cheque\" type=\"submit\">Pay $" . $price . " by Cheque</button><br>";
+								//echo "<button class=\"button buttonmedium\" name=\"method\" value=\"cheque\" type=\"submit\">Pay $" . $price . " by Cheque</button><br>";
 								echo "<button class=\"button buttonmedium\" name=\"method\" value=\"online\" type=\"submit\">Pay $" .$price . " by PayPal</button>";
 							}
 						?>
