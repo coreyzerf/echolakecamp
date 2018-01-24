@@ -100,6 +100,8 @@
 						  <input type="hidden" name="amount" value="<?php echo $price; ?>">
 						  <input type="hidden" name="currency_code" value="CAD">
 						  
+						  <input type="hidden" name="email" value="<?php echo $camper['email']; ?>">
+						  
 						  <input type="hidden" name="return" value="http://www.echolakecamp.ca/registered.php">
 						  <input type="hidden" name="rm" value="2">
 						  <input type="hidden" name="cancel_return" value="http://www.echolakecamp.ca/register.php">
