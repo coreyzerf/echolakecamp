@@ -13,7 +13,7 @@
 		header('Location: index.php');
 	}
 	
-	$query = "SELECT * FROM `EchoPeople`";
+	$query = "SELECT * FROM `EchoPeople` ORDER BY `last`";
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	if($result->num_rows == 0){
 		$_SESSION['wmsg'] = "Something Broke.";
