@@ -6,7 +6,7 @@
 
 	$page = $_SERVER['PHP_SELF'];
 	$now = time(); // or your date as well
-	$query = "SELECT date FROM `camps` WHERE date < CURRENT_DATE() ORDER BY CAST(date as datetime) ASC";
+	$query = "SELECT date FROM `camps` WHERE date > CURRENT_DATE() ORDER BY CAST(date as datetime) ASC";
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	$date = $result->fetch_assoc();
 	$your_date = strtotime($date['date']);
