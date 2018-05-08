@@ -34,7 +34,12 @@
 		$last = $camper['last'];
 		$email = $camper['email'];
 		$season = $camper['season'];
-		$price = $_POST['price'];
+		if (isset($_GET['amt'])){
+			$price = $_GET['amt'];
+			
+		}else{
+			$price = $_POST['price'];
+		}
 		
 		$query = "INSERT INTO " . $campid . " (camperid,amtpaid) VALUES ('$id','$price');";
 		$result = mysqli_query($connection, $query);
