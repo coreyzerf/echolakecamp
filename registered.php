@@ -14,7 +14,7 @@
 		$_SESSION['fmsg'] = "We are here";
 		$method = $_POST['method'];
 		$username = $_SESSION['username'];
-		$campid = $_POST['campid'];
+		$campid = $_SESSION['campid'];
 
 		$querycamper = "SELECT * FROM `EchoPeople` WHERE username='$username'";
 		$querycamp = "SELECT * FROM `camps` WHERE campid='$campid'";
