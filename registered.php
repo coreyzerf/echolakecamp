@@ -126,6 +126,7 @@
 								} 
 							}
 						?>
+						<a class="button buttonwide button-top-tiny" href="index.php">Home</a>
 					</div>
 				</div>
 			</div>
