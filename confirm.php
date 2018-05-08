@@ -113,7 +113,7 @@
 								<input type="hidden" name="rm" value="2">
 								<input type="hidden" name="cancel_return" value="http://www.echolakecamp.ca/register.php">
 								<input type="hidden" name="no_shipping" value="1">
-								
+								 
 								<!-- Display the payment button. -->
 								<button class="button buttonmedium" name="method" value="online" type="submit">Pay $<?php echo $price; ?> by PayPal</button><br>
 
