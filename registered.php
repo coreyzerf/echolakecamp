@@ -11,7 +11,6 @@
 	$_SESSION['fmsg'] = "You are not logged in.";
 	//header('Location: index.php');
 	}elseif (isset($_POST['method']) or isset($_GET['st'])){
-		$_SESSION['fmsg'] = "We are here";
 		$method = $_POST['method'];
 		$username = $_SESSION['username'];
 		$campid = $_SESSION['campid'];
