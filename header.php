@@ -9,8 +9,7 @@
 	$query = "SELECT date FROM `camps` ORDER BY convert(datetime, date, 103) ASC";
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	$date = $result->fetch_assoc();
-	echo $date[1];
-	$your_date = strtotime("2018-02-09");
+	$your_date = strtotime($date['date']);
 	$datediff = $your_date - $now;	
 	$until = floor($datediff / (60 * 60 * 24));
 	
