@@ -101,8 +101,11 @@
 						  <input type="hidden" name="currency_code" value="CAD">
 						  
 						  <input type="hidden" name="email" value="<?php echo $camper['email']; ?>">
+						  <input type="hidden" name="custom" value="<?php echo $camper['username']; ?>">
 						  
-						  <input type="hidden" name="return" value="http://www.echolakecamp.ca/registered.php">
+						  <input type="hidden" name="return" value="http://www.echolakecamp.ca/registered_ipn.php">
+						  <input type="hidden" name="notify_url" value="http://www.echolakecamp.ca/registered_ipn.php">
+						  
 						  <input type="hidden" name="rm" value="2">
 						  <input type="hidden" name="cancel_return" value="http://www.echolakecamp.ca/register.php">
 						  <input type="hidden" name="no_shipping" value="1">
