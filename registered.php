@@ -63,7 +63,7 @@
 		$result = mysqli_query($connection, $query);
 		
 		$collected = $camp['collected'] + $price;
-		$query = "UPDATE camps SET registered='$registered' WHERE campid='$campid'";
+		$query = "UPDATE camps SET collected='$collected' WHERE campid='$campid'";
 		$result = mysqli_query($connection, $query);		
 	
 		$toEmail = $email;
