@@ -107,7 +107,7 @@
 								</li>
 							</ul>
 						</div>
-						<div>
+						<!--<div>
 							<h3>UPCOMING EVENTS</h3>
 							<ul>
 								<li>
@@ -136,7 +136,7 @@
 								</li>
 							</ul>
 							<a class="button buttonwide button-top" href="events.php">View All</a>
-						</div>
+						</div>-->
 					</div>
 				</div>
 			</div>

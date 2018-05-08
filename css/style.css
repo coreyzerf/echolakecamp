@@ -364,7 +364,7 @@ p a:hover {
 	float:left;
 	margin:0;
 	padding:0!important;
-	width:588px;
+	width:100%;
 	border-color: #717A5D;
 	border-style: none solid none none;
 	border-width: 1px;
@@ -540,7 +540,7 @@ p a:hover {
 .content div div div div.section h2 {
 	margin:2px 0;
 	padding-bottom:3px;
-	width:589px!important;
+	width:100%!important;
 }
 /*.content div div div div.about div:first-child h2, .content div div div div.programs h2, .content div div div div.competition h2, .content div div div div.activities h2, .content div div div div.application h2, .content div div div div.staff h2, .content div div div div.register h2, .content div div div div.blog h2, .content div div div div.admin h2, .content div div div div.events h2, .content div div div div div.section h2, .content div.contact div div div.contact h2{
 	color:#756752;
