@@ -58,7 +58,7 @@
 				<div>
 					<div>
 						<div class="section">
-							<h2>WHY CHOOSE US?</h2>
+							<h2>Echo Lake Camp.</h2>
 							<p>
 								This website template has been designed by <a href="http://www.freewebsitetemplates.com/">Free Website Templates</a> for you, for free. You can replace all this text with your own text.
 							</p>
