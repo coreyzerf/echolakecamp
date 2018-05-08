@@ -6,8 +6,12 @@
 
 	$page = $_SERVER['PHP_SELF'];
 	$now = time(); // or your date as well
+	$query = "SELECT date FROM `camps` ORDER BY convert(datetime, date, 103) ASC";
+	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+	$date = $result->fetch_assoc();
+	echo $date;
 	$your_date = strtotime("2018-02-09");
-	$datediff = $your_date - $now;
+	$datediff = $your_date - $now;	
 	$until = floor($datediff / (60 * 60 * 24));
 	
 	if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {
