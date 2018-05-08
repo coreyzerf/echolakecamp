@@ -11,7 +11,7 @@
 	$_SESSION['fmsg'] = "You are not logged in.";
 	//header('Location: index.php');
 	}elseif (isset($_POST['method']) or isset($_GET['st'])){
-		if (isset($_POST['method']){
+		if (isset($_POST['method'])){
 			$method = $_POST['method'];
 		} else {
 			$method = "Paypal";
