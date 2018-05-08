@@ -40,7 +40,7 @@
 		<p>" . nl2br($message) . "</p>
 		<br>
 		<hr>
-		<p>You can click <a href=\"mailto:".$email."?Subject=RE:".$subject."\" target=\"_top\">here</a> to reply. If not, you can contact Corey.
+		<p>You can click <a href=\"mailto:".$email."?Subject=RE:".$subject."\" target=\"_top\">here</a> to reply. If not, you can contact <a href=\"mailto:corey@zerf.ca?Subject=FWD:".$subject."\" target=\"_top\">Corey</a>.
 		<p>Thanks,</p>
 		<p>Echolakecamp.ca Website</p>
 		";
