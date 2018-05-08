@@ -3,9 +3,9 @@
 	require('header.php');
 	if (isset($_POST['save'])){
 		$contact = $_POST['contact'];
-		$email = $_POST['email'];
-		$subject = $_POST['subject'];
-		$name = $_POST['name'];
+		$email = filter_var($_POST['email'], FILTER_VALIDATE_EMAIL);
+		$subject = filter_var($_POST['subject'], FILTER_SANITIZE_STRING);
+		$name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
 		$message = filter_var($_POST['message'], FILTER_SANITIZE_STRING);
 		if ($contact == "regist"){
 		$toEmail = "registrar@Echolakecamp.ca";
@@ -25,6 +25,9 @@
 		}elseif ($contact == "promot"){
 		$toEmail = "promotions@Echolakecamp.ca";
 		$staff = "Brittany Zerf";
+		}elseif ($contact == "execut"){
+		$toEmail = "executivedirector@Echolakecamp.ca";
+		$staff = "Brent Brown";
 		}
 		$appendedsubject = "[Contact Form @ Echolakecamp.ca] " . $subject;
 		$content = "
@@ -85,6 +88,7 @@
 								<option value="rental">Rental Coordinator</option>
 								<option value="summer">Summer Camp Manager</option>
 								<option value="weeken">Weekend Camp Manager</option>
+								<option value="execut">Executive Director</option>
 								<option value="promot">Promotions</option>
 								<option value="websit">Website Administrator</option>
 							</select>
