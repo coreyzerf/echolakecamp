@@ -11,7 +11,11 @@
 	$_SESSION['fmsg'] = "You are not logged in.";
 	//header('Location: index.php');
 	}elseif (isset($_POST['method']) or isset($_GET['st'])){
-		$method = $_POST['method'];
+		if (isset($_POST['method']){
+			$method = $_POST['method'];
+		} else {
+			$method = "Paypal";
+		}
 		$username = $_SESSION['username'];
 		$campid = $_SESSION['campid'];
 
@@ -55,6 +59,10 @@
 		$result = mysqli_query($connection, $query);
 		
 		$registered = $camp['registered'] + 1;
+		$query = "UPDATE camps SET registered='$registered' WHERE campid='$campid'";
+		$result = mysqli_query($connection, $query);
+		
+		$collected = $camp['collected'] + $price;
 		$query = "UPDATE camps SET registered='$registered' WHERE campid='$campid'";
 		$result = mysqli_query($connection, $query);		
 	
