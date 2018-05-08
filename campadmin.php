@@ -51,7 +51,7 @@
 									$season = $row['season'];
 									echo '<tr>';
 									echo '<form class="form-signin" method="POST" action="./edit.php">';
-									echo "<td class='h'>Season: " . $row['season'] . " Date: " . $row['date'] . " Registered: " . $row['registered'] . "</td>";
+									echo "<td class='h'>Season: " . $row['season'] . " Date: " . $row['date'] . " Registered: " . $row['registered'] . " Paid: " . $row['collected'] . "</td>";
 									echo "<td class='s'><button class=\"button\" name=\"edit\" value=\"" . $campid ."\" type=\"submit\">Edit Camp </button></td>\n";
 									echo "</form>";
 									echo '</tr>';
