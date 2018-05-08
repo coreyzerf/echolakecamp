@@ -35,7 +35,7 @@
 		$email = $camper['email'];
 		$season = $camper['season'];
 		if (isset($_GET['amt'])){
-			$price = $_GET['amt'];
+			$price =  (int)$_GET['amt'];
 			
 		}else{
 			$price = $_POST['price'];

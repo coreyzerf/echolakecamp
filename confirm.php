@@ -21,6 +21,7 @@
 			header('Location: index.php');
 		}
 		$camp = $resultcamp->fetch_assoc();
+		$_SESSION['campid'] = $camp['campid'];
 		
 		$querycamper = "SELECT * FROM `EchoPeople` WHERE username = '$username';";
 		$resultcamper = mysqli_query($connection, $querycamper) or die(mysqli_error($connection));	
