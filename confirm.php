@@ -88,39 +88,40 @@
 						<hr noshade>
 						<br>
 						<p>Please choose the payment option below:</p>
-						<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
-
-						  <!-- Identify your business so that you can collect the payments. -->
-						  <input type="hidden" name="business" value="corey@zerf.ca">
-
-						  <!-- Specify a Buy Now button. -->
-						  <input type="hidden" name="cmd" value="_xclick">
-
-						  <!-- Specify details about the item that buyers will purchase. -->
-						  <input type="hidden" name="item_name" value="<?php echo $camp['season'];?> Camp Registration">
-						  <input type="hidden" name="amount" value="<?php echo $price; ?>">
-						  <input type="hidden" name="currency_code" value="CAD">
-						  
-						  <input type="hidden" name="email" value="<?php echo $camper['email']; ?>">
-						  <input type="hidden" name="custom" value="<?php echo $camper['username']; ?>">
-						  
-						  <input type="hidden" name="return" value="http://www.echolakecamp.ca/registered.php">
-						  
-						  <input type="hidden" name="rm" value="2">
-						  <input type="hidden" name="cancel_return" value="http://www.echolakecamp.ca/register.php">
-						  <input type="hidden" name="no_shipping" value="1">
-
-						  <!-- Display the payment button. -->
-						  <button class="button buttonmedium" name="method" value="online" type="submit">Pay $<?php echo $price; ?> by PayPal</button><br>
-
-						</form>
-						<form class="form-signin" method="POST" action="./registered.php">
-						<input type="hidden" name="campid" value="<?php echo $camp['campid']; ?>">
-						<input type="hidden" name="price" value="<?php echo $price; ?>">
 						<?php
 							if ($registered) {
 								echo '<p> It would appear that you are already registered for this camp. Please contact our registrar (<a href="mailto:echoregistrar@gmail.com">echoregistrar@gmail.com</a>) for assistance</p>';
-							}else{
+							}else{ ?>
+								<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+
+								<!-- Identify your business so that you can collect the payments. -->
+								<input type="hidden" name="business" value="corey@zerf.ca">
+								
+								<!-- Specify a Buy Now button. -->
+								<input type="hidden" name="cmd" value="_xclick">
+
+								<!-- Specify details about the item that buyers will purchase. -->
+								<input type="hidden" name="item_name" value="<?php echo $camp['season'];?> Camp Registration">
+								<input type="hidden" name="amount" value="<?php echo $price; ?>">
+								<input type="hidden" name="currency_code" value="CAD">
+								  
+								<input type="hidden" name="email" value="<?php echo $camper['email']; ?>">
+								<input type="hidden" name="custom" value="<?php echo $camper['username']; ?>">
+								
+								<input type="hidden" name="return" value="http://www.echolakecamp.ca/registered.php">
+								  
+								<input type="hidden" name="rm" value="2">
+								<input type="hidden" name="cancel_return" value="http://www.echolakecamp.ca/register.php">
+								<input type="hidden" name="no_shipping" value="1">
+								
+								<!-- Display the payment button. -->
+								<button class="button buttonmedium" name="method" value="online" type="submit">Pay $<?php echo $price; ?> by PayPal</button><br>
+
+								</form>
+								<form class="form-signin" method="POST" action="./registered.php">
+								<input type="hidden" name="campid" value="<?php echo $camp['campid']; ?>">
+								<input type="hidden" name="price" value="<?php echo $price; ?>">
+						<?php
 								echo "<button class=\"button buttonmedium\" name=\"method\" value=\"cheque\" type=\"submit\">Pay $" . $price . " by Cheque</button><br>";
 								//echo "<button class=\"button buttonmedium\" name=\"method\" value=\"online\" type=\"submit\">Pay $" .$price . " by PayPal</button>";
 							}
