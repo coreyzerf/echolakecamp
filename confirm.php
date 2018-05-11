@@ -92,7 +92,7 @@
 								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . ")" ; ?></b></td>
 							</tr><tr>
 								<td class="h">Roommate Request:</td><td>
-								<select class="form-control" name="friend" id="friends">
+								<select class="form-control" name="friend" id="friends" form="friends">
 								<?php								
 									while($row = $result->fetch_assoc()){
 										$cuserid = $row['id'];
@@ -111,7 +111,7 @@
 							if ($registered) {
 								echo '<p> It would appear that you are already registered for this camp. Please contact our registrar (<a href="mailto:echoregistrar@gmail.com">echoregistrar@gmail.com</a>) for assistance</p>';
 							}else{ ?>
-								<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post">
+								<form action="https://www.sandbox.paypal.com/cgi-bin/webscr" method="post" id="friends">
 
 								<!-- Identify your business so that you can collect the payments. -->
 								<input type="hidden" name="business" value="corey@zerf.ca">
@@ -137,7 +137,7 @@
 								<button class="button buttonmedium" name="method" value="online" type="submit">Pay $<?php echo $price; ?> by PayPal</button><br>
 
 								</form>
-								<form class="form-signin" method="POST" action="./registered.php">
+								<form class="form-signin" method="POST" action="./registered.php" id="friends">
 								<input type="hidden" name="campid" value="<?php echo $camp['campid']; ?>">
 								<input type="hidden" name="price" value="<?php echo $price; ?>">
 						<?php

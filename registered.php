@@ -31,7 +31,6 @@
 		}
 		$friend = $_POST['friend'];
 		echo $friend . " <--- BFF YO";
-		echo $friend . " <--- BFF YO";
 		$camper = $resultcamper->fetch_assoc();
 		$camp = $resultcamp->fetch_assoc();			
 		$id = $camper['id'];
