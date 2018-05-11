@@ -26,6 +26,16 @@
 				}
 			}
 		} elseif ($dothis == "delete") {
+			$querycamper = "SELECT * FROM `EchoPeople` WHERE username='$username'";
+			$querycamp = "SELECT * FROM `camps` WHERE campid='$campid'";
+			$resultcamper = mysqli_query($connection, $querycamper) or die(mysqli_error($connection));
+			$resultcamp = mysqli_query($connection, $querycamp) or die(mysqli_error($connection));
+			if($resultcamp->num_rows == 0){
+				$_SESSION['wmsg'] = "There are no active camps";
+			}
+			if($resultcamper->num_rows == 0){
+				$_SESSION['wmsg'] = "Something went wrong.";
+			}
 			echo deleting;
 			foreach ($_POST['id'] as $id){
 				if ($_POST['checked'][$id]) {
@@ -36,6 +46,17 @@
 					}else{
 						$_SESSION['fmsg'] = "Save failed, " . mysqli_error($connection);
 					}
+					$attended = $camper['attended'] - 1;
+					$query = "UPDATE EchoPeople SET attended='$attended' WHERE username='$username'";
+					$result = mysqli_query($connection, $query);
+					
+					$registered = $camp['registered'] - 1;
+					$query = "UPDATE camps SET registered='$registered' WHERE campid='$campid'";
+					$result = mysqli_query($connection, $query);
+					
+					$collected = $camp['collected'] - $paid;
+					$query = "UPDATE camps SET collected='$collected' WHERE campid='$campid'";
+					$result = mysqli_query($connection, $query);	
 				}
 			}
 		}
