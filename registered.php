@@ -30,6 +30,7 @@
 			$_SESSION['wmsg'] = "Something went wrong.";
 		}
 		$friend = $_POST['friend'];
+		echo $friend;
 		$camper = $resultcamper->fetch_assoc();
 		$camp = $resultcamp->fetch_assoc();			
 		$id = $camper['id'];
