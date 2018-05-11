@@ -95,8 +95,9 @@
 			}
 		
 	}elseif($_POST['friend']){
-		$username = $_SESSION['username'];
-		$query = "UPDATE EchoPeople SET friend='$friend' WHERE username='$username'";
+		$id = $_SESSION['id'];
+		$campid = $_SESSION['campid'];
+		$query = "UPDATE " . $campid . " SET friend='$friend' WHERE id='$id'";
 		$result = mysqli_query($connection, $query);
         if($result){
             $_SESSION['smsg'] = "Roommate request saved.";
