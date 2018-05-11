@@ -91,7 +91,8 @@
 							</tr><tr>
 								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . " - " . date('d M Y', strtotime($camp['date']. ' + 7 days')) . ")" ; ?></b></td>
 							</tr><tr>
-								<td><select class="form-control" name="friend">
+								<td><label for="friends">Friend Request</label>
+								<select class="form-control" name="friend" id="friends">
 								<?php								
 									while($row = $result->fetch_assoc()){
 										$cuserid = $row['id'];
