@@ -44,7 +44,7 @@
 			$price = $_POST['price'];
 		}
 		
-		$query = "INSERT INTO " . $campid . " (camperid,amtpaid,friend) VALUES ('$id','$price',$friend);";
+		$query = "INSERT INTO " . $campid . " (camperid,amtpaid,friend) VALUES ('$id','$price','$friend');";
 		$result = mysqli_query($connection, $query);
 		if($result){
 			$_SESSION['smsg'] = "Successfully Registered.";
