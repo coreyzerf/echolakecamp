@@ -24,12 +24,6 @@
 		$camp = $resultcamp->fetch_assoc();
 		$_SESSION['campid'] = $camp['campid'];
 
-		$query = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
-		$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
-			if($result->num_rows == 0){
-				$_SESSION['wmsg'] = "Something Broke.";
-			}		
-		
 		$querycamper = "SELECT * FROM `EchoPeople` WHERE username = '$username';";
 		$resultcamper = mysqli_query($connection, $querycamper) or die(mysqli_error($connection));	
 		if($resultcamp->num_rows == 0){
@@ -133,6 +127,7 @@
 								//echo "<button class=\"button buttonmedium\" name=\"method\" value=\"online\" type=\"submit\">Pay $" .$price . " by PayPal</button>";
 							}
 						?>
+						<a class="button buttonwide button-top-tiny" href="index.php">Home</a>
 						</form>
 					</div>
 				</div>

@@ -43,7 +43,7 @@
 		}else{
 			$price = $_POST['price'];
 		}
-		
+		$friend = '';
 		$query = "INSERT INTO " . $campid . " (camperid,amtpaid,friend) VALUES ('$id','$price','$friend');";
 		$result = mysqli_query($connection, $query);
 		if($result){
@@ -87,6 +87,13 @@
 		if(mail($toEmail, $subject, $content, $headers, "-f echo@zerf.ca")) {
 			$_SESSION['smsg'] .= "<br />We have sent a confirmation email";
 		}
+		
+		$query = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
+		$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+			if($result->num_rows == 0){
+				$_SESSION['wmsg'] = "Something Broke.";
+			}
+		
 	}
 	
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
