@@ -118,17 +118,22 @@
 									echo "<br><p>Great! You are all registered! You should recieve confirmation from our registrar a couple weeks before camp starts</p>";
 								}
 								echo "";
-								echo "Roommate Request:";
-								echo "<input list=\"friends\" class=\"form-control\" name=\"friend\" autocomplete=\"off\">";
-								echo "<datalist id=\"friends\">";
-									while($row = $result->fetch_assoc()){
-										$cuserid = $row['id'];
-										$cfirst = $row['first'];
-										$clast = $row['last'];
-										echo "<option data-value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
-									}
-								echo "</datalist>";
-								
+								?>
+								<table>
+									<tr><td class="h">Roommate Request:</td>
+									<td>
+										<?php
+										echo "<input list=\"friends\" class=\"form-control\" name=\"friend\" autocomplete=\"off\">";
+										echo "<datalist id=\"friends\">";
+											while($row = $result->fetch_assoc()){
+												$cuserid = $row['id'];
+												$cfirst = $row['first'];
+												$clast = $row['last'];
+												echo "<option data-value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
+											}
+										echo "</datalist>";
+										?>
+									</td></tr></table>
 							}else{
 								echo '<h3>UH-OH!</h3>';
 								echo "<br><p>Something has gone wrong. But never fear, everything can be fixed! Please try again, or contact echoregistrar@gmail.com</p>";
