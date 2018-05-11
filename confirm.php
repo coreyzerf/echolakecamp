@@ -92,14 +92,14 @@
 								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . ")" ; ?></b></td>
 							</tr><tr>
 								<td class="h">Roommate Request:</td><td>
-								<input list="campers" class="form-control" name="camper" autocomplete="off">
-								<datalist id="campers">
+								<input list="friends" class="form-control" name="friend" autocomplete="off">
+								<datalist id="friends">
 								<?php								
 									while($row = $result->fetch_assoc()){
 										$cuserid = $row['id'];
 										$cfirst = $row['first'];
 										$clast = $row['last'];
-										echo "<option value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
+										echo "<option data-value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
 									}
 								?></datalist></td>
 							</tr>
