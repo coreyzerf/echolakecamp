@@ -24,9 +24,9 @@
 		$camp = $resultcamp->fetch_assoc();
 		$_SESSION['campid'] = $camp['campid'];
 
-		$queryfriend = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
-		$resultfriend = mysqli_query($connection, $query) or die(mysqli_error($connection));
-			if($resultfriend->num_rows == 0){
+		$query = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
+		$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+			if($result->num_rows == 0){
 				$_SESSION['wmsg'] = "Something Broke.";
 			}		
 		
@@ -94,7 +94,7 @@
 								<td class="h">Roommate Request:</td><td>
 								<select class="form-control" name="friend" id="friends">
 								<?php								
-									while($row = $resultfriend->fetch_assoc()){
+									while($row = $result->fetch_assoc()){
 										$cuserid = $row['id'];
 										$cfirst = $row['first'];
 										$clast = $row['last'];
