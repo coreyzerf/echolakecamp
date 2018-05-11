@@ -11,7 +11,7 @@
 	$date = $result->fetch_assoc();
 	$your_date = strtotime($date['date']);
 	$datediff = $your_date - $now;	
-	$until = floor($datediff / (60 * 60 * 24));
+	$until = ceil($datediff / (60 * 60 * 24));
 	
 	if (isset($_SESSION['LAST_ACTIVITY']) && (time() - $_SESSION['LAST_ACTIVITY'] > 1800)) {
 		// last request was more than 30 minutes ago
