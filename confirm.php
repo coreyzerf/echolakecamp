@@ -90,18 +90,6 @@
 								<td class="h">Health Concerns:</td><td><b><?php if (empty($camper['healthconcerns'])){ echo "None"; } else { echo $camper['healthconcerns']; } ?></b></td>
 							</tr><tr>
 								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . ")" ; ?></b></td>
-							</tr><tr>
-								<td class="h">Roommate Request:</td><td>
-								<input list="friends" class="form-control" name="friend" autocomplete="off">
-								<datalist id="friends">
-								<?php								
-									while($row = $result->fetch_assoc()){
-										$cuserid = $row['id'];
-										$cfirst = $row['first'];
-										$clast = $row['last'];
-										echo "<option data-value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
-									}
-								?></datalist></td>
 							</tr>
 						</table><br>
 						<hr noshade>
