@@ -134,6 +134,7 @@
 										echo "</datalist>";
 										?>
 									</td></tr></table>
+							<?php
 							}else{
 								echo '<h3>UH-OH!</h3>';
 								echo "<br><p>Something has gone wrong. But never fear, everything can be fixed! Please try again, or contact echoregistrar@gmail.com</p>";
