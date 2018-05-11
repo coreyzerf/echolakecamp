@@ -110,17 +110,17 @@
 								}else{
 									echo "<br><p>Great! You are all registered! You should recieve confirmation from our registrar a couple weeks before camp starts</p>";
 								}
-								echo "<tr>"
-								echo "<td class=\"h\">Roommate Request:</td><td>"
-								echo "<input list=\"friends\" class=\"form-control\" name=\"friend\" autocomplete=\"off\">"
-								echo "<datalist id=\"friends\">"
+								echo "<tr>";
+								echo "<td class=\"h\">Roommate Request:</td><td>";
+								echo "<input list=\"friends\" class=\"form-control\" name=\"friend\" autocomplete=\"off\">";
+								echo "<datalist id=\"friends\">";
 									while($row = $result->fetch_assoc()){
 										$cuserid = $row['id'];
 										$cfirst = $row['first'];
 										$clast = $row['last'];
 										echo "<option data-value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
 									}
-								echo "</datalist></td>"
+								echo "</datalist></td>";
 							</tr>
 							}else{
 								echo '<h3>UH-OH!</h3>';
