@@ -21,7 +21,14 @@
 			header('Location: index.php');
 		}
 		$camp = $resultcamp->fetch_assoc();
+		$camp = $resultcamp->fetch_assoc();
 		$_SESSION['campid'] = $camp['campid'];
+
+		$query = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
+		$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+			if($result->num_rows == 0){
+				$_SESSION['wmsg'] = "Something Broke.";
+			}		
 		
 		$querycamper = "SELECT * FROM `EchoPeople` WHERE username = '$username';";
 		$resultcamper = mysqli_query($connection, $querycamper) or die(mysqli_error($connection));	
@@ -83,6 +90,18 @@
 								<td class="h">Health Concerns:</td><td><b><?php if (empty($camper['healthconcerns'])){ echo "None"; } else { echo $camper['healthconcerns']; } ?></b></td>
 							</tr><tr>
 								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . " - " . date('d M Y', strtotime($camp['date']. ' + 7 days')) . ")" ; ?></b></td>
+							</tr><tr>
+								<input list="friends" class="form-control" name="friend" autocomplete="off">
+								<datalist id="friends">
+								<?php								
+									while($row = $result->fetch_assoc()){
+										$cuserid = $row['id'];
+										$cfirst = $row['first'];
+										$clast = $row['last'];
+										echo "<option value=\"" .$cuserid . "\">" . $cfirst . " " . $clast . "</option>\n";
+									}
+								?>
+								</datalist>
 							</tr>
 						</table><br>
 						<hr noshade>

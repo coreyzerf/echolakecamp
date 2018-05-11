@@ -32,7 +32,7 @@
 		$query = "INSERT INTO `camps` (campid,season,date,enddate,regprice,early,earlyprice,earliest,earliestprice,camplimit,speaker) VALUES ('$campid','$season','$date','$enddate','$regprice','$early','$earlyprice','$earliest','$earliestprice','$camplimit','$speaker');";
 		$result = mysqli_query($connection, $query);
 		if($result){
-			$query = "CREATE TABLE " . $campid . " (camperid VARCHAR(40), amtpaid INT(6), UNIQUE(camperid));";
+			$query = "CREATE TABLE " . $campid . " (camperid VARCHAR(40), amtpaid INT(6), friend VARCHAR(40), UNIQUE(camperid));";
 			$result = mysqli_query($connection, $query);
 			if($result){
 				$_SESSION['smsg'] = "Camp Created Successfully.";
