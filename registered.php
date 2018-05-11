@@ -97,6 +97,7 @@
 	}elseif($_POST['friend']){
 		$id = $_SESSION['id'];
 		$campid = $_SESSION['campid'];
+		$friend = $_POST['friend'];
 		$query = "UPDATE " . $campid . " SET friend='$friend' WHERE camperid='$id'";
 		$result = mysqli_query($connection, $query);
         if($result){
