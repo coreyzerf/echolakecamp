@@ -92,7 +92,8 @@
 								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . ")" ; ?></b></td>
 							</tr><tr>
 								<td class="h">Roommate Request:</td><td>
-								<select class="form-control" name="friend" id="friends" form="friends">
+								<input list="campers" class="form-control" name="camper" autocomplete="off">
+								<datalist id="campers">
 								<?php								
 									while($row = $result->fetch_assoc()){
 										$cuserid = $row['id'];
@@ -100,8 +101,7 @@
 										$clast = $row['last'];
 										echo "<option value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
 									}
-								?>
-								</select></td>
+								?></datalist></td>
 							</tr>
 						</table><br>
 						<hr noshade>
