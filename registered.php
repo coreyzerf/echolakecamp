@@ -128,9 +128,8 @@
 								}
 								echo "";
 								?>
+								<form class="form-signin" method="POST">
 								<table>
-									
-									<form class="form-signin" method="POST">
 									<tr><td class="h">Roommate Request:</td>
 									<td>
 										<?php
@@ -146,6 +145,7 @@
 										?>
 									</td></tr></table>
 									<button name="friends" class="button buttonwide" type="submit">Save</button>
+									</form>
 							<?php
 							}else{
 								echo '<h3>UH-OH!</h3>';
