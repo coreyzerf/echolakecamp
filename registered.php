@@ -94,7 +94,7 @@
 				$_SESSION['wmsg'] = "Something Broke.";
 			}
 		
-	}elseif($_POST['friends']){
+	}elseif($_POST['friend']){
 		$username = $_SESSION['username'];
 		$query = "UPDATE EchoPeople SET friend='$friend' WHERE username='$username'";
 		$result = mysqli_query($connection, $query);
@@ -144,7 +144,7 @@
 										echo "</datalist>";
 										?>
 									</td></tr></table>
-									<button name="friends" class="button buttonwide" type="submit">Save</button>
+									<button name="sfriends" class="button buttonwide" type="submit">Save</button>
 									</form>
 							<?php
 							}else{
