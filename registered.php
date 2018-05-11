@@ -120,7 +120,7 @@
 										$clast = $row['last'];
 										echo "<option data-value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
 									}
-								echo "</datalist>
+								echo "</datalist>";
 								
 							}else{
 								echo '<h3>UH-OH!</h3>';
