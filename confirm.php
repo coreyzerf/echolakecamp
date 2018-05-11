@@ -14,6 +14,7 @@
 		$registered = 0;
 		$register = $_POST['register'];
 		$username = $_SESSION['username'];
+		
 		$querycamp = "SELECT * FROM `camps` WHERE campid = '$register';";
 		$resultcamp = mysqli_query($connection, $querycamp) or die(mysqli_error($connection));	
 		if($resultcamp->num_rows == 0){
@@ -21,12 +22,11 @@
 			header('Location: index.php');
 		}
 		$camp = $resultcamp->fetch_assoc();
-		$camp = $resultcamp->fetch_assoc();
 		$_SESSION['campid'] = $camp['campid'];
 
-		$query = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
-		$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
-			if($result->num_rows == 0){
+		$queryfriend = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
+		$resultfriend = mysqli_query($connection, $query) or die(mysqli_error($connection));
+			if($resultfriend->num_rows == 0){
 				$_SESSION['wmsg'] = "Something Broke.";
 			}		
 		
@@ -89,7 +89,7 @@
 							</tr><tr>
 								<td class="h">Health Concerns:</td><td><b><?php if (empty($camper['healthconcerns'])){ echo "None"; } else { echo $camper['healthconcerns']; } ?></b></td>
 							</tr><tr>
-								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . " - " . date('d M Y', strtotime($camp['date']. ' + 7 days')) . ")" ; ?></b></td>
+								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . ")" ; ?></b></td>
 							</tr><tr>
 								<td class="h">Roommate Request:</td><td>
 								<select class="form-control" name="friend" id="friends">
