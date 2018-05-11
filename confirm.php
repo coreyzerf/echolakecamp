@@ -94,7 +94,7 @@
 								<td class="h">Roommate Request:</td><td>
 								<select class="form-control" name="friend" id="friends">
 								<?php								
-									while($row = $result->fetch_assoc()){
+									while($row = $resultfriend->fetch_assoc()){
 										$cuserid = $row['id'];
 										$cfirst = $row['first'];
 										$clast = $row['last'];
