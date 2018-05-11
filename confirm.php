@@ -85,12 +85,6 @@
 							</tr><tr>
 								<td class="h">Emergency Number:</td><td><b><?php echo $camper['emergnum']; ?></b></td>
 							</tr><tr>
-								<td class="h">Allergies:</td><td><b><?php if (empty($camper['allergy'])){ echo "None"; } else { echo $camper['allergy']; } ?></b></td>
-							</tr><tr>
-								<td class="h">Health Concerns:</td><td><b><?php if (empty($camper['healthconcerns'])){ echo "None"; } else { echo $camper['healthconcerns']; } ?></b></td>
-							</tr><tr>
-								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . " - " . date('d M Y', strtotime($camp['date']. ' + 7 days')) . ")" ; ?></b></td>
-							</tr><tr>
 								<select name="friend">
 								<?php								
 									while($row = $result->fetch_assoc()){
@@ -100,6 +94,12 @@
 										echo "<option value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
 									}
 								?>
+							</tr><tr>
+								<td class="h">Allergies:</td><td><b><?php if (empty($camper['allergy'])){ echo "None"; } else { echo $camper['allergy']; } ?></b></td>
+							</tr><tr>
+								<td class="h">Health Concerns:</td><td><b><?php if (empty($camper['healthconcerns'])){ echo "None"; } else { echo $camper['healthconcerns']; } ?></b></td>
+							</tr><tr>
+								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . " - " . date('d M Y', strtotime($camp['date']. ' + 7 days')) . ")" ; ?></b></td>
 							</tr>
 						</table><br>
 						<hr noshade>
