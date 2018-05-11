@@ -98,7 +98,7 @@
 										$cuserid = $row['id'];
 										$cfirst = $row['first'];
 										$clast = $row['last'];
-										echo  $cfirst . " " . $clast . "<option value=\"" .$cuserid . "\"></option>\n";
+										echo "<option value=\"" .$cuserid . "\" label =\"" . $cfirst . " " . $clast . "\"></option>\n";
 									}
 								?>
 								</datalist>
