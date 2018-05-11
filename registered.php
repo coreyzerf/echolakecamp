@@ -103,7 +103,7 @@
 		}else{
             $_SESSION['fmsg'] = "Roommate request failed, " . mysqli_error($connection);
 		}
-		header('Location: index.php');
+		
 	}
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 	
