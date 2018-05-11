@@ -91,17 +91,15 @@
 							</tr><tr>
 								<td class="h">Camp:</td><td><b><?php echo $camp['season'] . " (" . date('d M Y', strtotime($camp['date'])) . " - " . date('d M Y', strtotime($camp['date']. ' + 7 days')) . ")" ; ?></b></td>
 							</tr><tr>
-								<input list="friends" class="form-control" name="friend" autocomplete="off">
-								<datalist id="friends">
+								<select class="form-control" name="friend">
 								<?php								
 									while($row = $result->fetch_assoc()){
 										$cuserid = $row['id'];
 										$cfirst = $row['first'];
 										$clast = $row['last'];
-										echo "<option value=\"" .$cuserid . "\" label =\"" . $cfirst . " " . $clast . "\"></option>\n";
+										echo "<option value=\"" .$cuserid . "\" >" . $cfirst . " " . $clast . "</option>\n";
 									}
 								?>
-								</datalist>
 							</tr>
 						</table><br>
 						<hr noshade>
