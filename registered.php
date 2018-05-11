@@ -94,7 +94,15 @@
 				$_SESSION['wmsg'] = "Something Broke.";
 			}
 		
-	}
+	}elseif($_POST['friends']){
+		$username = $_SESSION['username'];
+		$query = "UPDATE EchoPeople SET friend='$friend' WHERE username='$username'";
+		$result = mysqli_query($connection, $query);
+        if($result){
+            $_SESSION['smsg'] = "Roommate request saved.";
+		}else{
+            $_SESSION['fmsg'] = "Roommate request failed, " . mysqli_error($connection);
+		}
 	
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 	
@@ -120,6 +128,8 @@
 								echo "";
 								?>
 								<table>
+									
+									<form class="form-signin" method="POST">
 									<tr><td class="h">Roommate Request:</td>
 									<td>
 										<?php
@@ -134,6 +144,7 @@
 										echo "</datalist>";
 										?>
 									</td></tr></table>
+									<button name="friends" class="button buttonwide" type="submit">Save</button>
 							<?php
 							}else{
 								echo '<h3>UH-OH!</h3>';
@@ -151,6 +162,7 @@
 								} 
 							}
 						?>
+						
 						<a class="button buttonwide button-top-tiny" href="index.php">Home</a>
 					</div>
 				</div>
