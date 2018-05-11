@@ -102,6 +102,7 @@
 		$result = mysqli_query($connection, $query);
         if($result){
             $_SESSION['smsg'] = "Roommate request saved.";
+			header('Location: index.php');
 		}else{
             $_SESSION['fmsg'] = "Roommate request failed, " . mysqli_error($connection);
 		}
