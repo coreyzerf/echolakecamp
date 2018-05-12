@@ -34,7 +34,7 @@
 	$search = array();
 	$i = 0;
 	$campid = $_POST['get'];
-	$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns FROM EchoPeople RIGHT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
+	$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.allergy, EchoPeople.healthconcerns FROM EchoPeople RIGHT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	if($result == 0){
 		$_SESSION['fmsg'] ="Failed " . mysqli_error($connection);
@@ -71,7 +71,7 @@
 		$data = "\n(0) Records Found!\n";                        
 	}
 	header("Content-type: application/octet-stream");
-	header("Content-Disposition: attachment; filename=medical.csv");
+	header("Content-Disposition: attachment; filename=kitchen.csv");
 	header("Pragma: no-cache");
 	header("Expires: 0");
 	print "$header\n$data";
