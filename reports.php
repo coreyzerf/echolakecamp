@@ -37,11 +37,11 @@
 										echo '</tr>';
 										echo '<tr>';
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
-										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Registrar</button></td></form>";
+										echo "<td class='h'><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Registrar</button></td></form>";
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
-										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Medical</button></td></form>";
+										echo "<td class='h'><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Medical</button></td></form>";
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
-										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Kitchen</button></td></form>";
+										echo "<td class='h'><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Kitchen</button></td></form>";
 										echo '</tr>';										
 									}
 								?>
