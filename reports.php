@@ -33,9 +33,9 @@
 										$campid = $row['campid'];
 										$season = $row['season'];
 										echo "<table class=\"reports\">";
-										echo '<tr>';
+										echo '<thead><tr>';
 										echo "<td class=\"c\">Season: " . $row['season'] . " Date: " . $row['date'] . "</td>";
-										echo '</tr>';
+										echo '</tr></thead>';
 										echo '</table>';
 										echo "<table class=\"reports\">";
 										echo '<tr>';
