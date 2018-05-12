@@ -23,6 +23,26 @@
 				<div>
 					<div class="blog">
 						<h2>Reports</h2>
+							<table class="diff">
+								<?php
+									while($row = $result->fetch_assoc()){
+										$campid = $row['campid'];
+										$season = $row['season'];
+										echo '<tr>';
+										echo "<td class='h'>Season: " . $row['season'] . " Date: " . $row['date'] . " Registered: " . $row['registered'] . " Paid: " . $row['collected'] . "</td>";
+										echo '</tr>';
+										echo '<tr>';
+										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
+										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Registrar</button></td></form>";
+										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
+										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Medical</button></td></form>";
+										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
+										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Kitchen</button></td></form>";
+										echo '</tr>';
+										
+									}
+								?>
+								</table>
 							<a class="button buttonwide button-top" href="./reports/registrar.php">Registrar</a>
 							<a class="button buttonwide button-top" href="./reports/medical.php">Medical</a>
 							<a class="button buttonwide button-top" href="./reports/kitchen.php">Kitchen</a>
