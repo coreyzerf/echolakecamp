@@ -12,7 +12,11 @@
 	}elseif (!$isadmin){
 		header('Location: index.php');
 	}
-	
+	$query = "SELECT * FROM `camps` WHERE UNIX_TIMESTAMP(date) >= UNIX_TIMESTAMP(DATE(NOW()))";
+	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
+	if($result == 0){
+		$_SESSION['wmsg'] = "There are no active camps";
+	}
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 	
 ?>
@@ -38,14 +42,10 @@
 										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Medical</button></td></form>";
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
 										echo "<td><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Kitchen</button></td></form>";
-										echo '</tr>';
-										
+										echo '</tr>';										
 									}
 								?>
 								</table>
-							<a class="button buttonwide button-top" href="./reports/registrar.php">Registrar</a>
-							<a class="button buttonwide button-top" href="./reports/medical.php">Medical</a>
-							<a class="button buttonwide button-top" href="./reports/kitchen.php">Kitchen</a>
 							<a class="button buttonwide button-top" href="admin.php">Back</a>
 						</form>
 					</div>
