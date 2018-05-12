@@ -47,7 +47,7 @@
 								<a class="button buttonwide button-top" href="campadmin.php">Camp Administration</a>
 								<a class="button buttonwide button-top" href="camperadmin.php">Camper Administration</a>
 								<a class="button buttonwide button-top" href="reports.php">Reports</a>				
-								<a class="button buttonwide button-top" href="admin.php">Back</a>
+								<a class="button buttonwide button-top" href="index.php">Back</a>
 							</form>
 					</div>
 				</div>
