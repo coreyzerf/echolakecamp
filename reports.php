@@ -45,6 +45,7 @@
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
 										echo "<td class='c'><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Kitchen</button></td></form>";
 										echo '</tr>';										
+										echo '</table>';										
 									}
 								?>
 								</table>
