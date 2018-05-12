@@ -34,7 +34,7 @@
 	$search = array();
 	$i = 0;
 	$campid = $_POST['get'];
-	$query = "SELECT EchoPeople.* FROM EchoPeople LEFT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
+	$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.email, EchoPeople.birthday, EchoPeople.phone, EchoPeople.street, EchoPeople.city, EchoPeople.Postal, EchoPeople.province, EchoPeople.country, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns, 5af4eaff863b4.amtpaid, 5af4eaff863b4.friend FROM EchoPeople RIGHT JOIN 5af4eaff863b4 on EchoPeople.id = 5af4eaff863b4.camperid ORDER BY gender, last";	 
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	if($result == 0){
 		$_SESSION['fmsg'] ="Failed " . mysqli_error($connection);
