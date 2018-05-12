@@ -27,13 +27,12 @@
 				<div>
 					<div class="blog">
 						<h2>Reports</h2>
-							
+
 								<?php
 									while($row = $result->fetch_assoc()){
-										
 										$campid = $row['campid'];
 										$season = $row['season'];
-										echo '<table class='reports'>';
+										echo "<table class=\"reports\">";
 										echo '<tr>';
 										echo "<td class=\"c\">Season: " . $row['season'] . " Date: " . $row['date'] . "</td>";
 										echo '</tr>';
