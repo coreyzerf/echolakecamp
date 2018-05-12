@@ -1401,6 +1401,10 @@ table.diff{
 	margin: 0 20% auto;
     width: 0;
 }
+table.reports{
+	margin: 0 20% auto;
+    width: 60%;
+}
 .content td{
 	text-align: left;
 }
