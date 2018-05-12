@@ -40,11 +40,11 @@
 										echo "<table class=\"reports\">";
 										echo '<tr>';
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
-										echo "<td class='c'><button class=\"button buttonwide\" value=\"" . $campid ."\" type=\"submit\">Registrar</button></td></form>";
+										echo "<td class='c'><button name=\"get\" class=\"button buttonwide\" value=\"" . $campid ."\" type=\"submit\">Registrar</button></td></form>";
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
-										echo "<td class='c'><button class=\"button buttonwide\" value=\"" . $campid ."\" type=\"submit\">Medical</button></td></form>";
+										echo "<td class='c'><button name=\"get\ class=\"button buttonwide\" value=\"" . $campid ."\" type=\"submit\">Medical</button></td></form>";
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
-										echo "<td class='c'><button class=\"button buttonwide\" value=\"" . $campid ."\" type=\"submit\">Kitchen</button></td></form>";
+										echo "<td class='c'><button name=\"get\ class=\"button buttonwide\" value=\"" . $campid ."\" type=\"submit\">Kitchen</button></td></form>";
 										echo '</tr>';										
 										echo '</table>';										
 									}
