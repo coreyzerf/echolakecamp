@@ -27,7 +27,7 @@
 				<div>
 					<div class="blog">
 						<h2>Reports</h2>
-							<table>
+							<table class="table">
 								<?php
 									while($row = $result->fetch_assoc()){
 										$campid = $row['campid'];
