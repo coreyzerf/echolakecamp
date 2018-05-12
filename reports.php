@@ -27,13 +27,13 @@
 				<div>
 					<div class="blog">
 						<h2>Reports</h2>
-							<table class="diff">
+							<table>
 								<?php
 									while($row = $result->fetch_assoc()){
 										$campid = $row['campid'];
 										$season = $row['season'];
 										echo '<tr>';
-										echo "<td class='h'>Season: " . $row['season'] . " Date: " . $row['date'] . " Registered: " . $row['registered'] . " Paid: " . $row['collected'] . "</td>";
+										echo "<td>Season: " . $row['season'] . " Date: " . $row['date'] . "</td>";
 										echo '</tr>';
 										echo '</table>';
 										echo "<table class=\"diff\">";
