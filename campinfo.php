@@ -7,14 +7,14 @@
 		session_unset();
 		$_SESSION['fmsg'] = "You are not logged in.";
 		header('Location: login.php');
+	}elseif (!$isadmin){
+		header('Location: index.php');
 	}
 	$campid = $_POST['campid'];
 	
 	if (isset($_POST['save'])){
 		$dothis = $_POST['save'];
-		echo $dothis;
 		if ($dothis == "save"){
-			echo saving;
 			foreach ($_POST['id'] as $id){
 				$paid = $_POST['paid'][$id];
 				$query = "UPDATE " . $campid . " SET amtpaid='$paid' WHERE camperid='$id';";
@@ -36,7 +36,6 @@
 			if($resultcamper->num_rows == 0){
 				$_SESSION['wmsg'] = "Something went wrong.";
 			}
-			echo deleting;
 			foreach ($_POST['id'] as $id){
 				if ($_POST['checked'][$id]) {
 					$query = "DELETE FROM " . $campid . " WHERE camperid='$id';";
