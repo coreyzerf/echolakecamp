@@ -10,6 +10,19 @@
 	//session_unset();
 	$_SESSION['fmsg'] = "You are not logged in.";
 	//header('Location: index.php');
+	}elseif($_POST['friend']){
+		$id = $_SESSION['id'];
+		$campid = $_SESSION['campid'];
+		$friend = $_POST['friend'];
+		$query = "UPDATE " . $campid . " SET friend='$friend' WHERE camperid='$id'";
+		$result = mysqli_query($connection, $query);
+        if($result){
+            $_SESSION['smsg'] = "Roommate request saved.";
+			header('Location: index.php');
+		}else{
+            $_SESSION['fmsg'] = "Roommate request failed, " . mysqli_error($connection);
+		}
+		
 	}elseif (isset($_POST['method']) or isset($_GET['st'])){
 		if (isset($_POST['method'])){
 			$method = $_POST['method'];
@@ -94,19 +107,6 @@
 				$_SESSION['wmsg'] = "Something Broke.";
 			}
 		$_GET['st'] = "";
-	}elseif($_POST['friend']){
-		$id = $_SESSION['id'];
-		$campid = $_SESSION['campid'];
-		$friend = $_POST['friend'];
-		$query = "UPDATE " . $campid . " SET friend='$friend' WHERE camperid='$id'";
-		$result = mysqli_query($connection, $query);
-        if($result){
-            $_SESSION['smsg'] = "Roommate request saved.";
-			header('Location: index.php');
-		}else{
-            $_SESSION['fmsg'] = "Roommate request failed, " . mysqli_error($connection);
-		}
-		
 	}
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 	
