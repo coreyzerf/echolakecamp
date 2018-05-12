@@ -34,7 +34,7 @@
 	$search = array();
 	$i = 0;
 	
-	$query = "SELECT * FROM `EchoPeople` LEFT JOIN `EchoPeople` on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
+	$query = "SELECT EchoPeople.* FROM `EchoPeople` LEFT JOIN `EchoPeople` on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	if($result == 0){
 		$_SESSION['fmsg'] ="Failed " . mysqli_error($connection);
