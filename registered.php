@@ -93,7 +93,7 @@
 			if($result->num_rows == 0){
 				$_SESSION['wmsg'] = "Something Broke.";
 			}
-		
+		$_GET['st'] = "";
 	}elseif($_POST['friend']){
 		$id = $_SESSION['id'];
 		$campid = $_SESSION['campid'];
