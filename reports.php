@@ -36,7 +36,7 @@
 										echo "<td class='h'>Season: " . $row['season'] . " Date: " . $row['date'] . " Registered: " . $row['registered'] . " Paid: " . $row['collected'] . "</td>";
 										echo '</tr>';
 										echo '</table>';
-										echo "<table class=\"diff\">"
+										echo "<table class=\"diff\">";
 										echo '<tr>';
 										echo '<form class="form-signin" method="POST" action="./reports/registrar.php">';
 										echo "<td class='h'><button class=\"button buttonwide button-top\" value=\"" . $campid ."\" type=\"submit\">Registrar</button></td></form>";
