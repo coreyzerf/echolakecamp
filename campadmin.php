@@ -43,7 +43,7 @@
 			<div>
 				<div>
 					<div class="blog">
-						<h2>Camp Admninistration</h2>
+						<h2>Camp Administration</h2>
 							<table class="diff">
 							<?php
 								while($row = $result->fetch_assoc()){
