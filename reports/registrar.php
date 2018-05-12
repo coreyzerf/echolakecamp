@@ -33,7 +33,7 @@
 	$data = "";
 	$search = array();
 	$i = 0;
-	$get = $_POST['get'];
+	$campid = $_POST['get'];
 	$query = "SELECT EchoPeople.* FROM EchoPeople LEFT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	if($result == 0){
