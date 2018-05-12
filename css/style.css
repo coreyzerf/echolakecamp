@@ -1407,6 +1407,7 @@ table.reports{
 }
 .content td.c{
 	text-align: center;
+	font-weight: bold;
 }
 .content td{
 	text-align: left;
