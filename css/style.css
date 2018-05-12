@@ -1405,6 +1405,9 @@ table.reports{
 	margin: 0 20% auto;
     width: 60%;
 }
+.content td.c{
+	text-align: center;
+}
 .content td{
 	text-align: left;
 }
