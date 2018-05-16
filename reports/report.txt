@@ -2,7 +2,7 @@
 
 ==REGISTRAR REPORT
 +Sort by Gender, Last
-Last, First, Email, Birthday, Phone, Street, City, Postal, Province, Country, Emergency, Emergency Phone, Health Card, Allergy, Special Concerns, Paid
+EchoPeople.last, EchoPeople.first, EchoPeople.email, EchoPeople.birthday, EchoPeople.phone, EchoPeople.street, EchoPeople.city, EchoPeople.Postal, EchoPeople.province, EchoPeople.country, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns, EchoPeople.paid
 
 ==KITCHEN REPORT
 +Sort by Last?
