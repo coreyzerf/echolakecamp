@@ -1,5 +1,5 @@
 <?php
-	if ( isset($_POST['optin'])){ 
+	if ( isset($_POST['OK'])){ 
 		$email = $_POST['email'];
 		$query = "INSERT `optin` (email) VALUES ($email) ;";
         $result = mysqli_query($connection, $query);
