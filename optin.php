@@ -1,7 +1,7 @@
 <?php
 	require('connect.php');
 	require('functions.php');
-	
+	session_start();
 	if ( isset($_POST['optin'])){ 
 		$email = $_POST['email'];
 		$query = "INSERT `optin` (email) VALUES ('$email') ;";
