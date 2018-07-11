@@ -34,9 +34,14 @@
 	$search = array();
 	$i = 0;
 	$campid = $_POST['get'];
-	$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns FROM EchoPeople RIGHT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
+	//$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns FROM EchoPeople RIGHT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
+	$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns INTO OUTFILE \"c:/mydata.csv\" FIELDS TERMINATED BY \",\" OPTIONALLY ENCLOSED BY \"\"\" LINES TERMINATED BY \"\n\" FROM EchoPeople RIGHT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
+	SELECT * INTO OUTFILE "c:/mydata.csv"
+FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
+LINES TERMINATED BY "\n"
+FROM my_table;
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
-	if($result == 0){
+	/*if($result == 0){
 		$_SESSION['fmsg'] ="Failed " . mysqli_error($connection);
 	}
 	$fields = mysqli_fetch_fields($result);
@@ -70,10 +75,11 @@
 	{
 		$data = "\n(0) Records Found!\n";                        
 	}
+	
 	header("Content-type: application/octet-stream");
 	header("Content-Disposition: attachment; filename=medical.csv");
 	header("Pragma: no-cache");
 	header("Expires: 0");
-	print "$header\n$data";
+	print "$header\n$data";*/
 	
 ?>
