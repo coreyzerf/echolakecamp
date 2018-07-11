@@ -42,9 +42,8 @@
 	$fields = mysqli_fetch_fields($result);
 	foreach ( $fields as $field )
 	{
-		$header .= $field->name;
+		$header .= $field->name . ",";
 	}
-
 
 	while ($row = $result->fetch_assoc())
 	{
