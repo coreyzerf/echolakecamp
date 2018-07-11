@@ -1,3 +1,4 @@
+	<!--PHP FOOTER END-->
 <div class="footer">
 		<div>
 			<div>
@@ -7,14 +8,14 @@
 				</p>
 				<form action="./optin.php" method="post">
 					<input type="text" name="email">
-					<input type="submit" submit="OK">
+					<input type="submit" value="OK">
 				</form>
 			</div>
 			<div>
-				<h4>LATEST BLOG</h4>
+				<h4></h4>
 				<ul>
 					<li>
-						<p>NO BLOGS YET...</p>
+						<p></p>
 					</li>
 				</ul>
 			</div>
