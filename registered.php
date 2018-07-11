@@ -118,6 +118,7 @@
 				<div>
 					<div class="register">
 						<?php
+							echo $registered;
 							if ($registered){
 								echo '<h3>Registered!</h3>';
 								if ($method == "cheque"){
