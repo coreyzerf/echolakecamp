@@ -8,7 +8,7 @@
 				</p>
 				<form class="form-signin" action="./optin.php" method="post">
 					<input type="text" name="email">
-					<input type="submit" value="OK">
+					<button class="button buttonwide button-top" name="optin" type="submit">
 				</form>
 			</div>
 			<div>
