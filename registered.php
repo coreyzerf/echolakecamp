@@ -64,6 +64,7 @@
 			$registered = 1;
 		}else{
 			$_SESSION['fmsg'] = "Registration Failed, " . mysqli_error($connection);
+			echo "failed!";
 			$registered = 0;
 		}
 		
