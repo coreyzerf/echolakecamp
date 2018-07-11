@@ -1,5 +1,5 @@
 <?php
-	if ( isset($_POST['OK'])){ 
+	if ( isset($_POST['optin'])){ 
 		$email = $_POST['email'];
 		$query = "INSERT `optin` (email) VALUES ($email) ;";
         $result = mysqli_query($connection, $query);
@@ -9,9 +9,8 @@
             $_SESSION['fmsg'] = "Save failed, " . mysqli_error($connection);
 		}
     }else{
-		echo "HERE";
+		header('Location: index.php');
 	}
 	
-	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
 	
 ?>
