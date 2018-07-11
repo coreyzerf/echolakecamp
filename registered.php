@@ -62,7 +62,7 @@
 		if($result){
 			echo "success!";
 			$_SESSION['smsg'] = "Successfully Registered.";
-			$registered = 1;
+			$aregistered = 1;
 			echo $aregistered;
 		}else{
 			$_SESSION['fmsg'] = "Registration Failed, " . mysqli_error($connection);
