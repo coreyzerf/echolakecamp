@@ -9,7 +9,7 @@
             $_SESSION['fmsg'] = "Save failed, " . mysqli_error($connection);
 		}
     }else{
-		header('Location: index.php');
+		echo "HERE";
 	}
 	
 	msgbox ($_SESSION['smsg'], $_SESSION['fmsg'], $_SESSION['wmsg']);
