@@ -1399,7 +1399,7 @@ content div div div div.application form p, .content div div div div.register fo
 }
 table.diff{
 	margin: 0 20% auto;
-    width: 0;
+    /*width: 0;*/
 }
 table.reports{
 	margin: 0 20% auto;
