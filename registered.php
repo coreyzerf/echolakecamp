@@ -60,8 +60,10 @@
 		$query = "INSERT INTO " . $campid . " (camperid,amtpaid,friend) VALUES ('$id','$price','$friend');";
 		$result = mysqli_query($connection, $query);
 		if($result){
+			echo "success!";
 			$_SESSION['smsg'] = "Successfully Registered.";
 			$registered = 1;
+			echo $registered;
 		}else{
 			$_SESSION['fmsg'] = "Registration Failed, " . mysqli_error($connection);
 			echo "failed!";
@@ -79,7 +81,8 @@
 		$collected = $camp['collected'] + $price;
 		$query = "UPDATE camps SET collected='$collected' WHERE campid='$campid'";
 		$result = mysqli_query($connection, $query);		
-	
+		echo "mysql done!";
+		echo $registered;
 		$toEmail = $email;
 		$subject = "Registered! | Echolakecamp.ca";
 		$content = "
@@ -101,7 +104,8 @@
 		if(mail($toEmail, $subject, $content, $headers, "-f echo@zerf.ca")) {
 			$_SESSION['smsg'] .= "<br />We have sent a confirmation email";
 		}
-		
+		echo "email sent!";
+		echo $registered;
 		$query = "SELECT * FROM `EchoPeople` ORDER BY `last`, `first`";
 		$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 			if($result->num_rows == 0){
