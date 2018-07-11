@@ -8,7 +8,6 @@
 		}else{
             $_SESSION['fmsg'] = "Save failed, " . mysqli_error($connection);
 		}
-		header('Location: index.php');
     }else{
 		header('Location: index.php');
 	}
