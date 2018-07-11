@@ -7,8 +7,7 @@
 					Usually comes out once a year. Get updates on whats happening at Camp, and how you can help!
 				</p>
 				<form class="form-signin" action="./optin.php" method="post">
-					<input type="text" name="email">
-					<button class="button buttonwide button-top" name="optin" type="submit">
+					<input type="text" name="email"> <button class="button buttonwide button-top" name="optin" type="submit">					
 				</form>
 			</div>
 			<div>
