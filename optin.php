@@ -1,4 +1,7 @@
 <?php
+	require('connect.php');
+	require('functions.php');
+	
 	if ( isset($_POST['optin'])){ 
 		$email = $_POST['email'];
 		echo $email;
