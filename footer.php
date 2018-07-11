@@ -1,4 +1,4 @@
-	<!--PHP FOOTER END-->
+	<!--PHP FOOTER BEGIN-->
 <div class="footer">
 		<div>
 			<div>
