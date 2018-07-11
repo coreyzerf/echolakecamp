@@ -9,7 +9,8 @@
 		}else{
             $_SESSION['fmsg'] = "Save failed, " . mysqli_error($connection);
 		}
-		echo mysqli_error($connection);
+		echo $_SESSION['smsg'];
+		echo $_SESSION['fmsg'];
 		//header('Location: index.php');
     }else{
 		header('Location: index.php');
