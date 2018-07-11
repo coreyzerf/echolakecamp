@@ -36,10 +36,6 @@
 	$campid = $_POST['get'];
 	//$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns FROM EchoPeople RIGHT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
 	$query = "SELECT EchoPeople.last, EchoPeople.first, EchoPeople.emergency, EchoPeople.emergnum, EchoPeople.healthnum, EchoPeople.allergy, EchoPeople.healthconcerns INTO OUTFILE \"c:/mydata.csv\" FIELDS TERMINATED BY \",\" OPTIONALLY ENCLOSED BY \"\"\" LINES TERMINATED BY \"\n\" FROM EchoPeople RIGHT JOIN " . $campid . " on EchoPeople.id = " . $campid . ".camperid ORDER BY gender, last";	 
-	SELECT * INTO OUTFILE "c:/mydata.csv"
-FIELDS TERMINATED BY ',' OPTIONALLY ENCLOSED BY '"'
-LINES TERMINATED BY "\n"
-FROM my_table;
 	$result = mysqli_query($connection, $query) or die(mysqli_error($connection));
 	/*if($result == 0){
 		$_SESSION['fmsg'] ="Failed " . mysqli_error($connection);
