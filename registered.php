@@ -22,7 +22,7 @@
 		}else{
             $_SESSION['fmsg'] = "Roommate request failed, " . mysqli_error($connection);
 		}
-		
+		$registered = 1;
 	}elseif (isset($_POST['method']) or isset($_GET['st'])){
 		if (isset($_POST['method'])){
 			$method = $_POST['method'];
