@@ -6,8 +6,8 @@
 					Usually comes out once a year. Get updates on whats happening at Camp, and how you can help!
 				</p>
 				<form action="optin.php">
-					<input type="text" value="email" onblur="this.value=!this.value?'Email Address':this.value;" onfocus="this.select()" onclick="this.value='';">
-					<input type="submit" value="optin">
+					<input type="text" value="email";">
+					<input type="submit" value="OK">
 				</form>
 			</div>
 			<div>
