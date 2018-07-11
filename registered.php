@@ -63,11 +63,11 @@
 			echo "success!";
 			$_SESSION['smsg'] = "Successfully Registered.";
 			$registered = 1;
-			echo $registered;
+			echo $aregistered;
 		}else{
 			$_SESSION['fmsg'] = "Registration Failed, " . mysqli_error($connection);
 			echo "failed!";
-			$registered = 0;
+			$aregistered = 0;
 		}
 		
 		$attended = $camper['attended'] + 1;
@@ -123,8 +123,8 @@
 				<div>
 					<div class="register">
 						<?php
-							echo $registered;
-							if ($registered){
+							echo $aregistered;
+							if ($aregistered){
 								echo '<h3>Registered!</h3>';
 								if ($method == "cheque"){
 									echo "<p>Great! Please make a cheque out to \"Echo Lake Youth Ministries\" and send it to:</p>";
